@@ -17,3 +17,4 @@ Lean is a functional programming language that makes it easy to write correct an
 - [SciLean](https://github.com/lecopivo/SciLean) - Scientific computing
 - [CSLib](https://www.cslib.io/) - Computer Science Library ([GitHub](https://github.com/leanprover/cslib))
 - [Lean FRO](https://www.linkedin.com/company/lean-fro/) - LEAN Focused Reasearch Organization
+- [DARPA Exponential Mathematics](https://www.darpa.mil/research/programs/expmath-exponential-mathematics) - DARPA program
