@@ -48,3 +48,7 @@ Lean is a functional programming language that makes it easy to write correct an
 - [Twitter](https://twitter.com/leanprover)
 - [Mastodon](https://functional.cafe/@leanprover)
 
+## To sort
+- https://github.com/strata-org/Strata.git
+- "Lessons from Building an Auto-Active Verifier in Lean"
+
