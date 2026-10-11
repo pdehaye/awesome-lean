@@ -9,5 +9,6 @@ An analysis of the repositories linked from the [list](../README.md): where Lean
 | Phase 2 | [`cards/`](cards/) | 37 repo cards following [`CARD_TEMPLATE.md`](CARD_TEMPLATE.md): roles, what the kernel checks, the creative idea, why Lean. |
 | Phase 3 | [`SYNTHESIS.md`](SYNTHESIS.md) | Role table, trust breakdown, 14 patterns of creative use, open ideas. |
 | Features | [`FEATURES.md`](FEATURES.md) | 23 Lean language features worth exploring, with usage counts. Script: [`feature_scan.sh`](feature_scan.sh). |
+| Deep dives | [`features/`](features/README.md) | How syntax categories and elaborators, ProofWidgets, Verso and the REPL work, with code from the repos. |
 
 To reproduce Phase 1: `python3 phase0_inventory.py && python3 phase1_signals.py <clone-dir>`. The repos are cloned sparsely (Lean sources and build files only).
