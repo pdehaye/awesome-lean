@@ -130,13 +130,17 @@ def analyze(rec):
     return row
 
 def derive(r):
-    if r.get("error") or not r.get("lean_loc"):
+    if r.get("error"):
+        return r
+    if not r.get("lean_loc"):
+        r["roles_guess"] = "external tool (no Lean code)"
         return r
     kloc = r["lean_loc"] / 1000
     proofs = r["d_theorem"] + r["d_lemma"]
     defs = sum(r[f"d_{k}"] for k in ("def", "abbrev", "instance", "structure", "class", "inductive", "opaque"))
     meta = r["syntax"] + r["macro"] + r["elab"] + r["syntax_cat"] + r["meta_monads"]
     r["proof_ratio"] = round(proofs / max(1, proofs + defs), 2)
+    r["meta_total"] = meta
     r["meta_per_kloc"] = round(meta / kloc, 1)
     r["io_per_kloc"] = round((r["io"] + 20 * r["main_def"] + 5 * r["extern"]) / kloc, 1)
     r["eval_per_kloc"] = round((r["eval"] + r["guard"]) / kloc, 1)
@@ -153,16 +157,21 @@ def guess(r):
         roles.append("certifier")
     elif r["proof_ratio"] >= 0.2:
         roles.append("spec+proof")
-    if r["meta_per_kloc"] >= 8:
+    if "GameServer" in r["imports_top"] or "GameServer" in r["requires"].split():
+        roles.append("game/teaching")
+    if r["meta_per_kloc"] >= 5 or r["meta_total"] >= 500:
         roles.append("DSL/metaprogramming")
-    if r["lean_exe"] or r["main_def"] or r["io_per_kloc"] >= 5:
+    if r["io_per_kloc"] >= 5:
         roles.append("program")
+
     if r["eval_per_kloc"] >= 5:
         roles.append("computation/examples")
     if r["widget"]:
         roles.append("interactive")
     if not roles:
-        roles.append("definitions/library")
+        roles.append("specification/modeling library")
+    if r["lean_exe"] and "program" not in roles:
+        roles.append("(ships tooling executables)")
     return " + ".join(roles)
 
 def main():
