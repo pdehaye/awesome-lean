@@ -4,7 +4,7 @@
 - **Primary role:** `program`
 - **Secondary roles:** `interactive/teaching`, `DSL-host/metaprogramming`, `certifier-software` (minor)
 - **What the kernel checks:** Mostly computation via `#eval` (206 occurrences). Few theorems (29); the DPLL correctness specs are `admit`ted (`LAMR/Examples/using_sat_solvers/dpll.lean`). Results from CaDiCaL, Z3 and Vampire are trusted, not checked.
-- **Certified vs only expressed:** Certified: small textbook proof examples (induction, equational reasoning, proof terms). `DisjointSetWithProofs` carries justifications as data (for congruence closure) and is not itself verified. Only expressed/run: formula syntax, CNF/Tseitin transformations, DPLL, unification, Fourier-Motzkin, encodings such as sudoku and magic squares.
+- **Certified vs only expressed:** Certified: small textbook proof examples (induction, equational reasoning, proof terms). `DisjointSetWithProofs` is a union-find that stores justifications as data; it is not itself verified. Only expressed/run: formula syntax, CNF/Tseitin transformations, DPLL, unification, Fourier-Motzkin, encodings such as sudoku and magic squares.
 - **Output artifact:** `#eval` output in the editor, two executables (`dpll`, `colorEncode`), and DIMACS / SMT-LIB / TPTP problem files passed to external solvers.
 - **Author mode:** Human (course material; no AI markers seen).
 - **Translation direction:** Out of Lean: Lean data structures are serialized to DIMACS CNF, SMT-LIB s-expressions and TPTP, and solver output is parsed back.
