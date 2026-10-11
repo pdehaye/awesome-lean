@@ -1,0 +1,21 @@
+# leanprover-community/lean-auto
+
+- **Domain:** A hammer-style interface between Lean's dependent type theory and external automated provers (SMT solvers, TPTP provers, Duper).
+- **Primary role:** `DSL-host/metaprogramming`
+- **Secondary roles:** `certifier-software` (a verified checker for a deep embedding of higher-order logic)
+- **What the kernel checks:** It depends on the backend:
+  - Native (e.g. Duper): the proof found for the higher-order problem goes through a checker that is proven correct. `Auto/Embedding/LamChecker.lean` proves validity facts (`LamThmValid`) for its checking steps.
+  - SMT and TPTP: nothing is checked. The goal is closed with axioms `autoSMTSorry` / `autoTPTPSorry` and a warning "Trusting SMT solvers" (`Auto/Solver/SMT.lean`, `Auto/Tactic.lean`).
+- **Certified vs only expressed:** Certified: the deep embedding and its checker (`Auto/Embedding/`, about 1,100 theorems overall). Only expressed: the monomorphization and translation to SMT-LIB / TH0 (`Auto/Translation/`, `Auto/IR/`), and whatever external solvers report.
+- **Output artifact:** The `auto` / `mono` / `mononative` tactics, generated SMT-LIB and TPTP problem text, and proof terms when a native prover is bound.
+- **Author mode:** Human. The README names Yicheng Qian. I found no evidence of AI authorship.
+- **Translation direction:** Out of Lean, to SMT-LIB 2.6 and TPTP TH0 (`Auto/IR/SMT.lean`, `Auto/IR/TPTP_TH0.lean`, `Auto/Translation/LamFOL2SMT.lean`). Also into Lean, by parsing solver output (`Auto/Parser/SMTParser.lean`, `Auto/Parser/TPTP.lean`).
+- **Creative idea:** lean-auto reifies dependent-type-theory goals into a deep embedding of higher-order logic whose checker is itself proven sound in Lean. That lets proofs from an external or "native" prover be replayed by reflection instead of being translated back term by term.
+- **Why Lean?:** Not stated in the README. The arXiv paper is linked but I did not read it. My assessment: the approach (monomorphizing CIC, a reflective checker) is specific to Lean's type theory and to its use as a metaprogramming language.
+- **Notable techniques:**
+  - A proven-correct checker for the embedded λ-calculus: `Auto/Embedding/LamChecker.lean`, `Auto/Embedding/LamBase.lean`.
+  - Monomorphization of dependent and universe-polymorphic facts: `Auto/Translation/Monomorphization.lean`.
+  - Spawning external solvers over pipes: `Auto/Solver/SMT.lean` (`IO.Process.spawn`).
+  - A Lake build target that downloads the Zipperposition binary: `lakefile.lean` (`zipperpositionAutoDownload`).
+- **Heuristic check:** The Phase 1 guess was `spec+proof + DSL/metaprogramming + program`. I mostly agree. The "proof" component is real: the checker's soundness proofs.
+- **Evidence:** `README.md`, `lakefile.lean`, `Auto/Tactic.lean` (`evalAuto`, `runAuto`, `queryNative`), `Auto/Embedding/LamChecker.lean` (head and greps), `Auto/Solver/SMT.lean`, `Auto/Solver/TPTP.lean`, `Auto/Solver/Native.lean` (greps).
