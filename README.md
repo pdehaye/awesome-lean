@@ -38,37 +38,37 @@ Lean is a functional programming language that makes it easy to write correct an
 ## Official resources
 
 - [Lean 4 repository](https://github.com/leanprover/lean4) - Source code of the Lean 4 compiler, elaborator and standard library.
-- [Documentation](https://lean-lang.org/learn/) - Index of the official manuals, books and tutorials.
-- [Lean Language Reference](https://lean-lang.org/doc/reference/latest/) - Comprehensive reference manual for the language.
-- [Lean Community](https://leanprover-community.github.io/) - Community website with installation instructions, events and Mathlib documentation.
+- [Documentation](https://lean-lang.org/learn/) - Index of the official manuals, books and tutorials ([GitHub](https://github.com/leanprover/lean-lang.org)).
+- [Lean Language Reference](https://lean-lang.org/doc/reference/latest/) - Comprehensive reference manual for the language ([GitHub](https://github.com/leanprover/reference-manual)).
+- [Lean Community](https://leanprover-community.github.io/) - Community website with installation instructions, events and Mathlib documentation ([GitHub](https://github.com/leanprover-community/leanprover-community.github.io)).
 
 ## Getting started
 
 - [elan](https://github.com/leanprover/elan) - Lean toolchain installer and version manager, in the spirit of rustup.
 - [Lake](https://github.com/leanprover/lean4/tree/master/src/lake) - Lean's built-in build system and package manager.
-- [Reservoir](https://reservoir.lean-lang.org) - Official registry of Lean packages.
-- [Lean 4 Web](https://live.lean-lang.org) - Try Lean and Mathlib in the browser with no installation.
+- [Reservoir](https://reservoir.lean-lang.org) - Official registry of Lean packages ([GitHub](https://github.com/leanprover/reservoir)).
+- [Lean 4 Web](https://live.lean-lang.org) - Try Lean and Mathlib in the browser with no installation ([GitHub](https://github.com/leanprover-community/lean4web)).
 
 ## Learning
 
 ### Books and tutorials
 
-- [Theorem Proving in Lean 4](https://lean-lang.org/theorem_proving_in_lean4/) - The standard introduction to dependent type theory and proving in Lean.
-- [Functional Programming in Lean](https://lean-lang.org/functional_programming_in_lean/) - David Thrane Christiansen's book on Lean as a general-purpose programming language.
-- [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/) - Hands-on introduction to formalizing mathematics with Mathlib.
-- [Metaprogramming in Lean 4](https://leanprover-community.github.io/lean4-metaprogramming-book/) - Writing tactics, macros and elaborators.
-- [The Mechanics of Proof](https://hrmacbeth.github.io/math2001/) - Heather Macbeth's introduction to proof writing, taught with Lean.
-- [Logic and Mechanized Reasoning](https://avigad.github.io/lamr/) - Textbook on logic, SAT/SMT solving and proof assistants.
-- [Type Checking in Lean 4](https://ammkrn.github.io/type_checking_in_lean4/) - Guide to Lean's kernel and type theory, aimed at writers of external checkers.
+- [Theorem Proving in Lean 4](https://lean-lang.org/theorem_proving_in_lean4/) - The standard introduction to dependent type theory and proving in Lean ([GitHub](https://github.com/leanprover/theorem_proving_in_lean4)).
+- [Functional Programming in Lean](https://lean-lang.org/functional_programming_in_lean/) - David Thrane Christiansen's book on Lean as a general-purpose programming language ([GitHub](https://github.com/leanprover/fp-lean)).
+- [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/) - Hands-on introduction to formalizing mathematics with Mathlib ([GitHub](https://github.com/leanprover-community/mathematics_in_lean)).
+- [Metaprogramming in Lean 4](https://leanprover-community.github.io/lean4-metaprogramming-book/) - Writing tactics, macros and elaborators ([GitHub](https://github.com/leanprover-community/lean4-metaprogramming-book)).
+- [The Mechanics of Proof](https://hrmacbeth.github.io/math2001/) - Heather Macbeth's introduction to proof writing, taught with Lean ([GitHub](https://github.com/hrmacbeth/math2001)).
+- [Logic and Mechanized Reasoning](https://avigad.github.io/lamr/) - Textbook on logic, SAT/SMT solving and proof assistants ([GitHub](https://github.com/avigad/lamr)).
+- [Type Checking in Lean 4](https://ammkrn.github.io/type_checking_in_lean4/) - Guide to Lean's kernel and type theory, aimed at writers of external checkers ([GitHub](https://github.com/ammkrn/type_checking_in_lean4)).
 
 ### Games
 
-- [Lean Game Server](https://adam.math.hhu.de) - Collection of browser-based games teaching Lean and mathematics.
-- [Natural Number Game](https://adam.math.hhu.de/#/g/leanprover-community/nng4) - The classic gentle introduction to proving theorems about natural numbers.
+- [Lean Game Server](https://adam.math.hhu.de) - Collection of browser-based games teaching Lean and mathematics ([GitHub](https://github.com/leanprover-community/lean4game)).
+- [Natural Number Game](https://adam.math.hhu.de/#/g/leanprover-community/nng4) - The classic gentle introduction to proving theorems about natural numbers ([GitHub](https://github.com/leanprover-community/nng4)).
 
 ### Courses
 
-- [Formalising Mathematics](https://b-mehta.github.io/formalising-mathematics-notes/) - Course notes from Kevin Buzzard's Imperial College course.
+- [Formalising Mathematics](https://b-mehta.github.io/formalising-mathematics-notes/) - Course notes from Kevin Buzzard's Imperial College course ([GitHub](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024)).
 - [The Hitchhiker's Guide to Logical Verification](https://github.com/lean-forward/logical_verification_2025) - Course on interactive theorem proving and program semantics in Lean 4.
 
 ## Editors and tooling
@@ -87,8 +87,8 @@ Lean is a functional programming language that makes it easy to write correct an
 
 ## Search
 
-- [Loogle](https://loogle.lean-lang.org) - Search Mathlib by name, constant and type signature patterns.
-- [LeanSearch](https://leansearch.net) - Natural-language semantic search over Mathlib.
+- [Loogle](https://loogle.lean-lang.org) - Search Mathlib by name, constant and type signature patterns ([GitHub](https://github.com/nomeata/loogle)).
+- [LeanSearch](https://leansearch.net) - Natural-language semantic search over Mathlib ([GitHub](https://github.com/frenzymath/LeanSearch)).
 - [LeanExplore](https://www.leanexplore.com) - Semantic search engine for Lean 4 declarations across Mathlib and other packages ([GitHub](https://github.com/justincasher/lean-explore)).
 
 ## Libraries
@@ -142,7 +142,7 @@ Lean is a functional programming language that makes it easy to write correct an
 - [Veil](https://github.com/verse-lab/veil) - Framework for verifying distributed protocols.
 - [Velvet](https://github.com/verse-lab/velvet) - Dafny-style verifier for imperative programs that mixes SMT automation with interactive Lean proofs.
 - [Loom](https://github.com/verse-lab/loom) - Framework for building foundational multi-modal program verifiers in Lean.
-- [Verified SymCrypt](https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/) - Microsoft Research verifies Rust cryptography in SymCrypt with Aeneas and Lean.
+- [Verified SymCrypt](https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/) - Microsoft Research verifies Rust cryptography in SymCrypt with Aeneas and Lean ([GitHub](https://github.com/microsoft/SymCrypt/tree/feature/verifiedcrypto)).
 - [Strata](https://github.com/strata-org/Strata) - Extensible intermediate verification language framework built in Lean.
 - [LeanMachines](https://github.com/lean-machines-central/lean-machines) - Event-B inspired framework for modeling and stepwise refinement of stateful systems.
 - [lean4-mlir](https://github.com/brettkoonce/lean4-mlir) - Neural networks specified in Lean with machine-checked gradients, compiled through MLIR to GPU ([book](https://lean.brettkoonce.com/blueprint/)).
@@ -175,11 +175,11 @@ Lean is a functional programming language that makes it easy to write correct an
 
 ## Papers
 
-- [The Lean 4 Theorem Prover and Programming Language](https://doi.org/10.1007/978-3-030-79876-5_37) - De Moura and Ullrich, CADE 2021.
-- [The Lean Mathematical Library](https://doi.org/10.1145/3372885.3373824) - The mathlib Community, CPP 2020.
-- [Velvet: A Foundational Multi-Modal Verifier for Imperative Programs in Lean](https://ilyasergey.net/assets/pdf/papers/velvet-cav26.pdf) - CAV 2026 distinguished paper.
-- [Lessons from Building an Auto-Active Verifier in Lean](https://popl26.sigplan.org/details/dafny-2026-papers/14/Lessons-from-Building-an-Auto-Active-Verifier-in-Lean) - Experience report on building Veil, Dafny 2026 workshop at POPL.
-- [Lean Atlas](https://arxiv.org/abs/2604.16347) - Integrated proof environment for scalable human-AI collaborative formalization.
+- [The Lean 4 Theorem Prover and Programming Language](https://doi.org/10.1007/978-3-030-79876-5_37) - De Moura and Ullrich, CADE 2021 ([GitHub](https://github.com/leanprover/lean4)).
+- [The Lean Mathematical Library](https://doi.org/10.1145/3372885.3373824) - The mathlib Community, CPP 2020 ([GitHub](https://github.com/leanprover-community/mathlib4)).
+- [Velvet: A Foundational Multi-Modal Verifier for Imperative Programs in Lean](https://ilyasergey.net/assets/pdf/papers/velvet-cav26.pdf) - CAV 2026 distinguished paper ([GitHub](https://github.com/verse-lab/velvet)).
+- [Lessons from Building an Auto-Active Verifier in Lean](https://popl26.sigplan.org/details/dafny-2026-papers/14/Lessons-from-Building-an-Auto-Active-Verifier-in-Lean) - Experience report on building Veil, Dafny 2026 workshop at POPL ([GitHub](https://github.com/verse-lab/veil)).
+- [Lean Atlas](https://arxiv.org/abs/2604.16347) - Integrated proof environment for scalable human-AI collaborative formalization ([GitHub](https://github.com/NyxFoundation/lean-atlas)).
 
 ## Funding calls
 
@@ -188,13 +188,13 @@ Lean is a functional programming language that makes it easy to write correct an
 
 ## Organizations
 
-- [Lean FRO](https://lean-lang.org/fro/) - Lean Focused Research Organization, stewarding Lean's development ([LinkedIn](https://www.linkedin.com/company/lean-fro/), [roadmap](https://lean-lang.org/fro/roadmap/)).
+- [Lean FRO](https://lean-lang.org/fro/) - Lean Focused Research Organization, stewarding Lean's development ([LinkedIn](https://www.linkedin.com/company/lean-fro/), [roadmap](https://lean-lang.org/fro/roadmap/), [GitHub](https://github.com/leanprover)).
 
 ## Companies
 
-- [Axiom](https://axiommath.ai) - AI for mathematics startup ([NYTimes article](https://www.nytimes.com/2026/03/12/technology/axiom-ai-code-funding.html)).
+- [Axiom](https://axiommath.ai) - AI for mathematics startup ([NYTimes article](https://www.nytimes.com/2026/03/12/technology/axiom-ai-code-funding.html), [GitHub](https://github.com/AxiomMath)).
 - [Harmonic](https://harmonic.fun) - Builder of Aristotle, a Lean-verified mathematical reasoning model.
-- [Math Inc](https://math.inc) - Autoformalization company behind the Gauss agent.
+- [Math Inc](https://math.inc) - Autoformalization company behind the Gauss agent ([GitHub](https://github.com/math-inc)).
 - [hestia.ai](https://hestia.ai) - Data and AI company.
 - [StartClaims](https://startclaims.eu) - Formally verified claims calculation, using Lean to make evidence and reasoning checkable.
 
