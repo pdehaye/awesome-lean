@@ -122,6 +122,9 @@ Lean is a functional programming language that makes it easy to write correct an
 
 - [PhysLean](https://github.com/lean-phys-community/PhysLean) - Lean Community for formalizing physics.
 - [SciLean](https://github.com/lecopivo/SciLean) - Lean project for formalizing scientific computing.
+- [EconCSLib](https://github.com/gametheoryinlean/EconCSLib) - Library and knowledge base for computational economics: games, social choice, fair division, matching and mechanism design.
+- [AppliedModelingLib](https://github.com/nikhgarg/AppliedModelingLib) - AI-assisted workflow for formalizing economics and computation research papers, formerly also named EconCSLib ([paper](https://arxiv.org/abs/2606.13306)).
+- [EconLib](https://fortune.com/2026/06/01/axiom-math-econlib-antitrust-economic-theory-verified/) - Axiom Math's formally verified library of economic theory, starting with Aumann's agreement theorem ([GitHub](https://github.com/AxiomMath/AgreeToDisagree)).
 - [Balancing a robot using Lean](https://www.galois.com/articles/real-time-robotics-control-in-the-lean-language) - An experiment at Galois Inc.
 
 ## Software verification
