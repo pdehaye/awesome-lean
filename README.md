@@ -78,6 +78,7 @@ Lean is a functional programming language that makes it easy to write correct an
 - [lean.nvim](https://github.com/Julian/lean.nvim) - Neovim support for Lean 4.
 - [doc-gen4](https://github.com/leanprover/doc-gen4) - Documentation generator for Lean 4 projects.
 - [Verso](https://verso.lean-lang.org/) - Authoring tool for documentation, books and websites written in Lean ([GitHub](https://github.com/leanprover/verso)).
+- [Verso templates](https://github.com/leanprover/verso-templates) - Ready-to-copy starter projects for Verso textbooks, blogs and websites, with a setup script.
 - [leanblueprint](https://github.com/PatrickMassot/leanblueprint) - Plastex plugin for writing blueprints that track large formalization projects.
 - [lean4web](https://github.com/leanprover-community/lean4web) - Self-hostable web editor for Lean 4.
 - [Comparator](https://github.com/leanprover/comparator) - Sandboxed, trustworthy judge that independently re-checks Lean proofs against a challenge statement.
@@ -183,6 +184,7 @@ Lean is a functional programming language that makes it easy to write correct an
 - [Harmonic](https://harmonic.fun) - Builder of Aristotle, a Lean-verified mathematical reasoning model.
 - [Math Inc](https://math.inc) - Autoformalization company behind the Gauss agent.
 - [hestia.ai](https://hestia.ai) - Data and AI company.
+- [StartClaims](https://startclaims.eu) - Formally verified claims calculation, using Lean to make evidence and reasoning checkable.
 
 ## Videos
 
