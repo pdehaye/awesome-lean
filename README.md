@@ -78,6 +78,7 @@ Lean is a functional programming language that makes it easy to write correct an
 - [lean.nvim](https://github.com/Julian/lean.nvim) - Neovim support for Lean 4.
 - [doc-gen4](https://github.com/leanprover/doc-gen4) - Documentation generator for Lean 4 projects.
 - [Verso](https://verso.lean-lang.org/) - Authoring tool for documentation, books and websites written in Lean ([GitHub](https://github.com/leanprover/verso)).
+- [Verso templates](https://github.com/leanprover/verso-templates) - Ready-to-copy starter projects for Verso textbooks, blogs and websites, with a setup script.
 - [leanblueprint](https://github.com/PatrickMassot/leanblueprint) - Plastex plugin for writing blueprints that track large formalization projects.
 - [lean4web](https://github.com/leanprover-community/lean4web) - Self-hostable web editor for Lean 4.
 - [Comparator](https://github.com/leanprover/comparator) - Sandboxed, trustworthy judge that independently re-checks Lean proofs against a challenge statement.
@@ -116,11 +117,19 @@ Lean is a functional programming language that makes it easy to write correct an
 - [Statistical Learning Theory](https://github.com/YuanheZ/lean-stat-learning-theory) - Sorry-free Lean 4 library for statistical learning theory, built with human-AI collaboration.
 - [Class Field Theory](https://github.com/kbuzzard/ClassFieldTheory) - Kevin Buzzard's project to formalize class field theory.
 - [Formal Conjectures](https://github.com/google-deepmind/formal-conjectures) - Google DeepMind's collection of formalized open conjectures.
+- [Tau Ceti](https://github.com/TauCetiProject/TauCeti) - Library of formal mathematics written by AI contributors under human-directed roadmaps, incubated by the Lean FRO and the Mathlib Initiative.
+- [merely-true](https://github.com/merely-true/merely-true) - Permissive, CI-gated repository of AI-generated mathematics with no manual review.
+- [Lean Pool](https://github.com/LeanPool/lean-pool) - Curated collection of formalization projects outside Mathlib's scope, checked by linters and LLM review.
 
 ## Thematic projects
 
 - [PhysLean](https://github.com/lean-phys-community/PhysLean) - Lean Community for formalizing physics.
 - [SciLean](https://github.com/lecopivo/SciLean) - Lean project for formalizing scientific computing.
+- [EconCSLib](https://github.com/gametheoryinlean/EconCSLib) - Library and knowledge base for computational economics: games, social choice, fair division, matching and mechanism design.
+- [AppliedModelingLib](https://github.com/nikhgarg/AppliedModelingLib) - AI-assisted workflow for formalizing economics and computation research papers, formerly also named EconCSLib ([paper](https://arxiv.org/abs/2606.13306)).
+- [EconLib](https://fortune.com/2026/06/01/axiom-math-econlib-antitrust-economic-theory-verified/) - Axiom Math's formally verified library of economic theory, starting with Aumann's agreement theorem ([GitHub](https://github.com/AxiomMath/AgreeToDisagree)).
+- [StatsMLlib](https://github.com/Lean-MoDS/StatsMLlib) - Sorry-free library for probability, high-dimensional statistics, empirical processes and learning theory ([Lean-MoDS](https://github.com/Lean-MoDS)).
+- [linglib](https://github.com/hawkrobe/linglib) - Library for formal linguistics across semantics, syntax, pragmatics, morphology and phonology.
 - [Balancing a robot using Lean](https://www.galois.com/articles/real-time-robotics-control-in-the-lean-language) - An experiment at Galois Inc.
 
 ## Software verification
@@ -135,6 +144,8 @@ Lean is a functional programming language that makes it easy to write correct an
 - [Loom](https://github.com/verse-lab/loom) - Framework for building foundational multi-modal program verifiers in Lean.
 - [Verified SymCrypt](https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/) - Microsoft Research verifies Rust cryptography in SymCrypt with Aeneas and Lean.
 - [Strata](https://github.com/strata-org/Strata) - Extensible intermediate verification language framework built in Lean.
+- [LeanMachines](https://github.com/lean-machines-central/lean-machines) - Event-B inspired framework for modeling and stepwise refinement of stateful systems.
+- [lean4-mlir](https://github.com/brettkoonce/lean4-mlir) - Neural networks specified in Lean with machine-checked gradients, compiled through MLIR to GPU ([book](https://lean.brettkoonce.com/blueprint/)).
 
 ## AI and machine learning
 
@@ -159,6 +170,8 @@ Lean is a functional programming language that makes it easy to write correct an
 - [Lean Copilot](https://github.com/lean-dojo/LeanCopilot) - LLM-powered tactic suggestions inside Lean.
 - [REPL](https://github.com/leanprover-community/repl) - JSON read-eval-print loop for driving Lean from other programs.
 - [lean-lsp-mcp](https://github.com/oOo0oOo/lean-lsp-mcp) - Model Context Protocol server exposing the Lean language server to agents.
+- [Eggshell](https://github.com/momonpya/eggshell) - Local memory that lets AI agents reuse prior work across chats, with a core and contracts written in Lean.
+- [Epistemic Protocols](https://github.com/jongwony/epistemic-protocols) - Human-AI collaboration protocols whose contracts are modeled and checked in Lean.
 
 ## Papers
 
@@ -183,6 +196,7 @@ Lean is a functional programming language that makes it easy to write correct an
 - [Harmonic](https://harmonic.fun) - Builder of Aristotle, a Lean-verified mathematical reasoning model.
 - [Math Inc](https://math.inc) - Autoformalization company behind the Gauss agent.
 - [hestia.ai](https://hestia.ai) - Data and AI company.
+- [StartClaims](https://startclaims.eu) - Formally verified claims calculation, using Lean to make evidence and reasoning checkable.
 
 ## Videos
 
