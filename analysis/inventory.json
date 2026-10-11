@@ -1,0 +1,1590 @@
+[
+ {
+  "repo": "AeneasVerif/aeneas",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Aeneas",
+    "section": "Software verification",
+    "primary": true,
+    "description": "Verification toolchain that translates Rust programs into Lean."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "AlexKontorovich/PrimeNumberTheoremAnd",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Prime Number Theorem And...",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Formalizing the prime number theorem and related analytic number theory."
+   }
+  ],
+  "reservoir": {
+   "description": "Blueprint for the PNT+ Project",
+   "keywords": [],
+   "homepage": "https://alexkontorovich.github.io/PrimeNumberTheoremAnd/",
+   "license": "Apache-2.0",
+   "createdAt": "2024-01-09T18:15:43Z",
+   "updatedAt": "2026-10-09T15:00:43Z",
+   "stars": 350
+  }
+ },
+ {
+  "repo": "ammkrn/type_checking_in_lean4",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Type Checking in Lean 4",
+    "section": "Books and tutorials",
+    "primary": false,
+    "description": "Guide to Lean's kernel and type theory, aimed at writers of external checkers ([GitHub](https://github.com/ammkrn/type_checking_in_lean4))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "avigad/lamr",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Logic and Mechanized Reasoning",
+    "section": "Books and tutorials",
+    "primary": false,
+    "description": "Textbook on logic, SAT/SMT solving and proof assistants ([GitHub](https://github.com/avigad/lamr))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "AxiomMath/AgreeToDisagree",
+  "branch": null,
+  "entries": [
+   {
+    "name": "EconLib",
+    "section": "Thematic projects",
+    "primary": false,
+    "description": "Axiom Math's formally verified library of economic theory, starting with Aumann's agreement theorem ([GitHub](https://github.com/AxiomMath/AgreeToDisagree))."
+   }
+  ],
+  "reservoir": {
+   "description": "Lean formalizations of the paper \"We Can't Agree to Disagree, Formally: Aumann's Theorem and Assumption Accounting in Lean\"",
+   "keywords": [],
+   "homepage": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6837298",
+   "license": "MIT",
+   "createdAt": "2026-05-19T20:25:57Z",
+   "updatedAt": "2026-07-17T22:43:34Z",
+   "stars": 22
+  }
+ },
+ {
+  "repo": "brettkoonce/lean4-mlir",
+  "branch": null,
+  "entries": [
+   {
+    "name": "lean4-mlir",
+    "section": "Software verification",
+    "primary": true,
+    "description": "Neural networks specified in Lean with machine-checked gradients, compiled through MLIR to GPU ([book](https://lean.brettkoonce.com/blueprint/))."
+   }
+  ],
+  "reservoir": {
+   "description": "Lean specification of neural architectures with verified GPU codegen.",
+   "keywords": [],
+   "homepage": "https://lean.brettkoonce.com/blueprint",
+   "license": "BSD-3-Clause",
+   "createdAt": "2026-04-03T01:28:57Z",
+   "updatedAt": "2026-10-11T15:00:31Z",
+   "stars": 34
+  }
+ },
+ {
+  "repo": "cedar-policy/cedar-spec",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Cedar",
+    "section": "Software verification",
+    "primary": true,
+    "description": "Lean formalization and proofs for AWS's Cedar authorization language."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "deepseek-ai/DeepSeek-Prover-V2",
+  "branch": null,
+  "entries": [
+   {
+    "name": "DeepSeek-Prover-V2",
+    "section": "Models and provers",
+    "primary": true,
+    "description": "Open-weight theorem proving model for Lean 4."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "fpvandoorn/carleson",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Carleson",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Formalization of a generalized Carleson theorem."
+   }
+  ],
+  "reservoir": {
+   "description": "A formalized proof of Carleson's theorem in Lean",
+   "keywords": [],
+   "homepage": "http://florisvandoorn.com/carleson/",
+   "license": "Apache-2.0",
+   "createdAt": "2023-10-20T14:24:32Z",
+   "updatedAt": "2026-10-10T22:13:18Z",
+   "stars": 113
+  }
+ },
+ {
+  "repo": "frenzymath/LeanSearch",
+  "branch": null,
+  "entries": [
+   {
+    "name": "LeanSearch",
+    "section": "Search",
+    "primary": false,
+    "description": "Natural-language semantic search over Mathlib ([GitHub](https://github.com/frenzymath/LeanSearch))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "gametheoryinlean/EconCSLib",
+  "branch": null,
+  "entries": [
+   {
+    "name": "EconCSLib",
+    "section": "Thematic projects",
+    "primary": true,
+    "description": "Library and knowledge base for computational economics: games, social choice, fair division, matching and mechanism design."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "Goedel-LM/Goedel-Prover-V2",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Goedel-Prover-V2",
+    "section": "Models and provers",
+    "primary": true,
+    "description": "Open-source automated theorem prover for Lean 4."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "google-deepmind/formal-conjectures",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Formal Conjectures",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Google DeepMind's collection of formalized open conjectures."
+   }
+  ],
+  "reservoir": {
+   "description": "A collection of formalized statements of conjectures in Lean.",
+   "keywords": [
+    "math"
+   ],
+   "homepage": "https://google-deepmind.github.io/formal-conjectures/",
+   "license": "Apache-2.0",
+   "createdAt": "2025-05-12T08:22:05Z",
+   "updatedAt": "2026-10-11T16:01:22Z",
+   "stars": 1317
+  }
+ },
+ {
+  "repo": "hawkrobe/linglib",
+  "branch": null,
+  "entries": [
+   {
+    "name": "linglib",
+    "section": "Thematic projects",
+    "primary": true,
+    "description": "Library for formal linguistics across semantics, syntax, pragmatics, morphology and phonology."
+   }
+  ],
+  "reservoir": {
+   "description": "A Lean 4 library for formal linguistics: semantics, syntax, pragmatics, morphology, phonology, and processing — formalized across competing frameworks for high interconnection density.",
+   "keywords": [
+    "linguistics",
+    "formal-semantics",
+    "formal-syntax",
+    "phonology",
+    "pragmatics",
+    "morphology",
+    "lean4",
+    "mathlib"
+   ],
+   "homepage": "https://linglib.io/",
+   "license": "Apache-2.0",
+   "createdAt": "2026-01-23T22:57:58Z",
+   "updatedAt": "2026-10-11T18:07:33Z",
+   "stars": 26
+  }
+ },
+ {
+  "repo": "hrmacbeth/math2001",
+  "branch": null,
+  "entries": [
+   {
+    "name": "The Mechanics of Proof",
+    "section": "Books and tutorials",
+    "primary": false,
+    "description": "Heather Macbeth's introduction to proof writing, taught with Lean ([GitHub](https://github.com/hrmacbeth/math2001))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "ImperialCollegeLondon/FLT",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Fermat's Last Theorem",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Kevin Buzzard's project to formalize a proof of FLT."
+   }
+  ],
+  "reservoir": {
+   "description": "Ongoing Lean formalisation of the proof of Fermat's Last Theorem",
+   "keywords": [],
+   "homepage": "https://imperialcollegelondon.github.io/FLT/",
+   "license": "Apache-2.0",
+   "createdAt": "2023-11-19T17:37:05Z",
+   "updatedAt": "2026-10-10T23:18:33Z",
+   "stars": 1043
+  }
+ },
+ {
+  "repo": "ImperialCollegeLondon/formalising-mathematics-2024",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Formalising Mathematics",
+    "section": "Courses",
+    "primary": false,
+    "description": "Course notes from Kevin Buzzard's Imperial College course ([GitHub](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024))."
+   }
+  ],
+  "reservoir": {
+   "description": "Formalising Mathematics; a course for undergraduate mathematicians. Ran between January and March 2024.",
+   "keywords": [],
+   "homepage": "https://www.ma.imperial.ac.uk/~buzzard/xena/formalising-mathematics-2024/",
+   "license": "Apache-2.0",
+   "createdAt": "2023-11-17T19:39:37Z",
+   "updatedAt": "2026-10-04T04:16:40Z",
+   "stars": 260
+  }
+ },
+ {
+  "repo": "jongwony/epistemic-protocols",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Epistemic Protocols",
+    "section": "Tools for AI",
+    "primary": true,
+    "description": "Human-AI collaboration protocols whose contracts are modeled and checked in Lean."
+   }
+  ],
+  "reservoir": {
+   "description": "Epistemic protocols for Claude Code — structure human-AI interaction quality at every decision point - https://epistemic-protocols.com",
+   "keywords": [],
+   "homepage": null,
+   "license": "MIT",
+   "createdAt": "2025-12-25T12:47:46Z",
+   "updatedAt": "2026-10-11T15:27:29Z",
+   "stars": 173
+  }
+ },
+ {
+  "repo": "Julian/lean.nvim",
+  "branch": null,
+  "entries": [
+   {
+    "name": "lean.nvim",
+    "section": "Editors and tooling",
+    "primary": true,
+    "description": "Neovim support for Lean 4."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "justincasher/lean-explore",
+  "branch": null,
+  "entries": [
+   {
+    "name": "LeanExplore",
+    "section": "Search",
+    "primary": false,
+    "description": "Semantic search engine for Lean 4 declarations across Mathlib and other packages ([GitHub](https://github.com/justincasher/lean-explore))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "kbuzzard/ClassFieldTheory",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Class Field Theory",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Kevin Buzzard's project to formalize class field theory."
+   }
+  ],
+  "reservoir": {
+   "description": "Github repository for the 2025 Clay Summer School on Formalizing Class Field Theory",
+   "keywords": [
+    "math",
+    "algebra",
+    "class-field-theory"
+   ],
+   "homepage": "https://kbuzzard.github.io/ClassFieldTheory/blueprint/",
+   "license": "Apache-2.0",
+   "createdAt": "2025-04-01T21:38:46Z",
+   "updatedAt": "2026-09-27T08:24:06Z",
+   "stars": 17
+  }
+ },
+ {
+  "repo": "lean-dojo/LeanCopilot",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Lean Copilot",
+    "section": "Tools for AI",
+    "primary": true,
+    "description": "LLM-powered tactic suggestions inside Lean."
+   }
+  ],
+  "reservoir": {
+   "description": "LLMs as Copilots for Theorem Proving in Lean",
+   "keywords": [],
+   "homepage": "https://leandojo.org/leancopilot.html",
+   "license": "MIT",
+   "createdAt": "2023-09-09T01:52:22Z",
+   "updatedAt": "2026-10-11T13:56:14Z",
+   "stars": 1331
+  }
+ },
+ {
+  "repo": "lean-dojo/LeanDojo",
+  "branch": null,
+  "entries": [
+   {
+    "name": "LeanDojo",
+    "section": "Tools for AI",
+    "primary": true,
+    "description": "Toolkit for extracting data and interacting with Lean programmatically."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "lean-forward/logical_verification_2025",
+  "branch": null,
+  "entries": [
+   {
+    "name": "The Hitchhiker's Guide to Logical Verification",
+    "section": "Courses",
+    "primary": true,
+    "description": "Course on interactive theorem proving and program semantics in Lean 4."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "lean-machines-central/lean-machines",
+  "branch": null,
+  "entries": [
+   {
+    "name": "LeanMachines",
+    "section": "Software verification",
+    "primary": true,
+    "description": "Event-B inspired framework for modeling and stepwise refinement of stateful systems."
+   }
+  ],
+  "reservoir": {
+   "description": "a Lean4 framework for the modeling and refinement of stateful systems",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2024-08-07T12:55:05Z",
+   "updatedAt": "2026-10-11T14:45:01Z",
+   "stars": 38
+  }
+ },
+ {
+  "repo": "Lean-MoDS/StatsMLlib",
+  "branch": null,
+  "entries": [
+   {
+    "name": "StatsMLlib",
+    "section": "Thematic projects",
+    "primary": true,
+    "description": "Sorry-free library for probability, high-dimensional statistics, empirical processes and learning theory ([Lean-MoDS](https://github.com/Lean-MoDS))."
+   }
+  ],
+  "reservoir": {
+   "description": "Verified probability, statistics, and learning theory in Lean 4",
+   "keywords": [],
+   "homepage": "https://statsmllib.github.io/",
+   "license": "Apache-2.0",
+   "createdAt": "2026-07-28T19:28:30Z",
+   "updatedAt": "2026-10-11T15:58:04Z",
+   "stars": 29
+  }
+ },
+ {
+  "repo": "lean-phys-community/PhysLean",
+  "branch": null,
+  "entries": [
+   {
+    "name": "PhysLean",
+    "section": "Thematic projects",
+    "primary": true,
+    "description": "Lean Community for formalizing physics."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "LeanPool/lean-pool",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Lean Pool",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Curated collection of formalization projects outside Mathlib's scope, checked by linters and LLM review."
+   }
+  ],
+  "reservoir": {
+   "description": null,
+   "keywords": [
+    "math"
+   ],
+   "homepage": "https://leanpool.github.io/lean-pool/",
+   "license": "Apache-2.0",
+   "createdAt": "2026-05-09T17:10:00Z",
+   "updatedAt": "2026-10-11T12:11:31Z",
+   "stars": 141
+  }
+ },
+ {
+  "repo": "leanprover-community/aesop",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Aesop",
+    "section": "Libraries",
+    "primary": true,
+    "description": "White-box automation tactic for proof search."
+   }
+  ],
+  "reservoir": {
+   "description": "White-box automation for Lean 4",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2021-06-01T13:02:59Z",
+   "updatedAt": "2026-10-09T17:22:36Z",
+   "stars": 407
+  }
+ },
+ {
+  "repo": "leanprover-community/batteries",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Batteries",
+    "section": "Libraries",
+    "primary": true,
+    "description": "Extended standard library of data structures and tactics."
+   }
+  ],
+  "reservoir": {
+   "description": "The \"batteries included\" extended library for the Lean programming language and theorem prover",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2022-08-28T15:23:46Z",
+   "updatedAt": "2026-10-11T13:56:44Z",
+   "stars": 420
+  }
+ },
+ {
+  "repo": "leanprover-community/duper",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Duper",
+    "section": "Libraries",
+    "primary": true,
+    "description": "Superposition-based automatic theorem prover tactic."
+   }
+  ],
+  "reservoir": {
+   "description": null,
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2021-11-03T15:35:41Z",
+   "updatedAt": "2026-10-01T06:27:11Z",
+   "stars": 118
+  }
+ },
+ {
+  "repo": "leanprover-community/import-graph",
+  "branch": null,
+  "entries": [
+   {
+    "name": "import-graph",
+    "section": "Editors and tooling",
+    "primary": true,
+    "description": "Tool to visualize and analyze the import structure of Lean projects."
+   }
+  ],
+  "reservoir": {
+   "description": "Tools to analyse and visualise the import structure of Lean packages and their files.",
+   "keywords": [],
+   "homepage": "https://reservoir.lean-lang.org/@leanprover-community/import-graph",
+   "license": "Apache-2.0",
+   "createdAt": "2023-12-19T20:50:35Z",
+   "updatedAt": "2026-10-09T08:25:46Z",
+   "stars": 28
+  }
+ },
+ {
+  "repo": "leanprover-community/iris-lean",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Iris-Lean",
+    "section": "Software verification",
+    "primary": true,
+    "description": "Port of the Iris separation logic framework to Lean 4."
+   }
+  ],
+  "reservoir": {
+   "description": "Lean 4 port of Iris, a higher-order concurrent separation logic framework",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2022-03-12T12:48:13Z",
+   "updatedAt": "2026-10-10T14:34:13Z",
+   "stars": 227
+  }
+ },
+ {
+  "repo": "leanprover-community/lean-auto",
+  "branch": null,
+  "entries": [
+   {
+    "name": "lean-auto",
+    "section": "Libraries",
+    "primary": true,
+    "description": "Interface between Lean and external automated theorem provers."
+   }
+  ],
+  "reservoir": {
+   "description": "Experiments on automation for Lean",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2023-07-11T20:35:26Z",
+   "updatedAt": "2026-10-08T02:55:28Z",
+   "stars": 192
+  }
+ },
+ {
+  "repo": "leanprover-community/lean-liquid",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Liquid Tensor Experiment",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Formalization of a key theorem of Clausen and Scholze, completed in 2022."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover-community/lean4-metaprogramming-book",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Metaprogramming in Lean 4",
+    "section": "Books and tutorials",
+    "primary": false,
+    "description": "Writing tactics, macros and elaborators ([GitHub](https://github.com/leanprover-community/lean4-metaprogramming-book))."
+   }
+  ],
+  "reservoir": {
+   "description": null,
+   "keywords": [],
+   "homepage": "https://leanprover-community.github.io/lean4-metaprogramming-book/",
+   "license": "Apache-2.0",
+   "createdAt": "2022-03-23T22:54:03Z",
+   "updatedAt": "2026-10-08T10:59:14Z",
+   "stars": 314
+  }
+ },
+ {
+  "repo": "leanprover-community/lean4-mode",
+  "branch": null,
+  "entries": [
+   {
+    "name": "lean4-mode",
+    "section": "Editors and tooling",
+    "primary": true,
+    "description": "Emacs major mode for Lean 4."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover-community/lean4game",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Lean Game Server",
+    "section": "Games",
+    "primary": false,
+    "description": "Collection of browser-based games teaching Lean and mathematics ([GitHub](https://github.com/leanprover-community/lean4game))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover-community/lean4web",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Lean 4 Web",
+    "section": "Getting started",
+    "primary": false,
+    "description": "Try Lean and Mathlib in the browser with no installation ([GitHub](https://github.com/leanprover-community/lean4web))."
+   },
+   {
+    "name": "lean4web",
+    "section": "Editors and tooling",
+    "primary": true,
+    "description": "Self-hostable web editor for Lean 4."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover-community/leanprover-community.github.io",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Lean Community",
+    "section": "Official resources",
+    "primary": false,
+    "description": "Community website with installation instructions, events and Mathlib documentation ([GitHub](https://github.com/leanprover-community/leanprover-community.github.io))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover-community/mathematics_in_lean",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Mathematics in Lean",
+    "section": "Books and tutorials",
+    "primary": false,
+    "description": "Hands-on introduction to formalizing mathematics with Mathlib ([GitHub](https://github.com/leanprover-community/mathematics_in_lean))."
+   }
+  ],
+  "reservoir": {
+   "description": "The user home repository for the Mathematics in Lean tutorial.",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2020-04-25T01:10:56Z",
+   "updatedAt": "2026-10-10T06:53:24Z",
+   "stars": 612
+  }
+ },
+ {
+  "repo": "leanprover-community/mathlib4",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Mathlib",
+    "section": "Libraries",
+    "primary": true,
+    "description": "The community's unified library of formalized mathematics ([docs](https://leanprover-community.github.io/mathlib4_docs/))."
+   },
+   {
+    "name": "The Lean Mathematical Library",
+    "section": "Papers",
+    "primary": false,
+    "description": "The mathlib Community, CPP 2020 ([GitHub](https://github.com/leanprover-community/mathlib4))."
+   }
+  ],
+  "reservoir": {
+   "description": "The math library of Lean 4",
+   "keywords": [],
+   "homepage": "https://leanprover-community.github.io/mathlib4_docs",
+   "license": "Apache-2.0",
+   "createdAt": "2021-05-09T07:52:01Z",
+   "updatedAt": "2026-10-11T17:26:45Z",
+   "stars": 4287
+  }
+ },
+ {
+  "repo": "leanprover-community/nng4",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Natural Number Game",
+    "section": "Games",
+    "primary": false,
+    "description": "The classic gentle introduction to proving theorems about natural numbers ([GitHub](https://github.com/leanprover-community/nng4))."
+   }
+  ],
+  "reservoir": {
+   "description": "Natural Number Game",
+   "keywords": [],
+   "homepage": "https://adam.math.hhu.de",
+   "license": "Apache-2.0",
+   "createdAt": "2023-04-25T16:28:58Z",
+   "updatedAt": "2026-10-11T08:39:02Z",
+   "stars": 381
+  }
+ },
+ {
+  "repo": "leanprover-community/plausible",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Plausible",
+    "section": "Libraries",
+    "primary": true,
+    "description": "Property-based testing framework."
+   }
+  ],
+  "reservoir": {
+   "description": null,
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2024-10-23T23:42:28Z",
+   "updatedAt": "2026-10-09T17:23:01Z",
+   "stars": 117
+  }
+ },
+ {
+  "repo": "leanprover-community/ProofWidgets4",
+  "branch": null,
+  "entries": [
+   {
+    "name": "ProofWidgets",
+    "section": "Libraries",
+    "primary": true,
+    "description": "Interactive user-interface widgets in the infoview."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover-community/quote4",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Qq",
+    "section": "Libraries",
+    "primary": true,
+    "description": "Type-safe expression quotations for metaprogramming."
+   }
+  ],
+  "reservoir": {
+   "description": "Intuitive, type-safe expression quotations for Lean 4.",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2021-05-08T19:00:07Z",
+   "updatedAt": "2026-10-09T17:22:35Z",
+   "stars": 111
+  }
+ },
+ {
+  "repo": "leanprover-community/repl",
+  "branch": null,
+  "entries": [
+   {
+    "name": "REPL",
+    "section": "Tools for AI",
+    "primary": true,
+    "description": "JSON read-eval-print loop for driving Lean from other programs."
+   }
+  ],
+  "reservoir": {
+   "description": "A simple REPL for Lean 4, returning information about errors and sorries.",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2023-03-30T23:12:19Z",
+   "updatedAt": "2026-10-07T09:39:52Z",
+   "stars": 233
+  }
+ },
+ {
+  "repo": "leanprover/comparator",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Comparator",
+    "section": "Editors and tooling",
+    "primary": true,
+    "description": "Sandboxed, trustworthy judge that independently re-checks Lean proofs against a challenge statement."
+   }
+  ],
+  "reservoir": {
+   "description": null,
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2025-06-06T11:02:28Z",
+   "updatedAt": "2026-10-11T17:48:51Z",
+   "stars": 240
+  }
+ },
+ {
+  "repo": "leanprover/cslib",
+  "branch": null,
+  "entries": [
+   {
+    "name": "CSLib",
+    "section": "Libraries",
+    "primary": false,
+    "description": "Computer Science Library ([GitHub](https://github.com/leanprover/cslib))."
+   }
+  ],
+  "reservoir": {
+   "description": "The Lean Computer Science Library (CSLib)",
+   "keywords": [],
+   "homepage": "https://www.cslib.io/",
+   "license": "Apache-2.0",
+   "createdAt": "2025-06-17T08:59:32Z",
+   "updatedAt": "2026-10-11T18:07:51Z",
+   "stars": 745
+  }
+ },
+ {
+  "repo": "leanprover/doc-gen4",
+  "branch": null,
+  "entries": [
+   {
+    "name": "doc-gen4",
+    "section": "Editors and tooling",
+    "primary": true,
+    "description": "Documentation generator for Lean 4 projects."
+   }
+  ],
+  "reservoir": {
+   "description": "Document Generator for Lean 4",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2021-11-11T01:41:27Z",
+   "updatedAt": "2026-10-06T14:29:45Z",
+   "stars": 174
+  }
+ },
+ {
+  "repo": "leanprover/elan",
+  "branch": null,
+  "entries": [
+   {
+    "name": "elan",
+    "section": "Getting started",
+    "primary": true,
+    "description": "Lean toolchain installer and version manager, in the spirit of rustup."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover/fp-lean",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Functional Programming in Lean",
+    "section": "Books and tutorials",
+    "primary": false,
+    "description": "David Thrane Christiansen's book on Lean as a general-purpose programming language ([GitHub](https://github.com/leanprover/fp-lean))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover/lean-eval",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Lean Eval",
+    "section": "Benchmarks and datasets",
+    "primary": false,
+    "description": "Lean FRO's public leaderboard of hard formalization problems, judged by Comparator ([problems](https://github.com/leanprover/lean-eval))."
+   }
+  ],
+  "reservoir": {
+   "description": "Comparator-based Lean formal mathematics eval",
+   "keywords": [],
+   "homepage": "https://lean-lang.org/eval/",
+   "license": "Apache-2.0",
+   "createdAt": "2026-04-10T07:11:10Z",
+   "updatedAt": "2026-10-07T23:47:51Z",
+   "stars": 48
+  }
+ },
+ {
+  "repo": "leanprover/lean-lang.org",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Documentation",
+    "section": "Official resources",
+    "primary": false,
+    "description": "Index of the official manuals, books and tutorials ([GitHub](https://github.com/leanprover/lean-lang.org))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover/lean4",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Lean 4 repository",
+    "section": "Official resources",
+    "primary": true,
+    "description": "Source code of the Lean 4 compiler, elaborator and standard library."
+   },
+   {
+    "name": "Lake",
+    "section": "Getting started",
+    "primary": true,
+    "description": "Lean's built-in build system and package manager."
+   },
+   {
+    "name": "The Lean 4 Theorem Prover and Programming Language",
+    "section": "Papers",
+    "primary": false,
+    "description": "De Moura and Ullrich, CADE 2021 ([GitHub](https://github.com/leanprover/lean4))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover/LNSym",
+  "branch": null,
+  "entries": [
+   {
+    "name": "LNSym",
+    "section": "Software verification",
+    "primary": true,
+    "description": "Symbolic simulator for Armv8 machine code."
+   }
+  ],
+  "reservoir": {
+   "description": "Armv8 Native Code Symbolic Simulator in Lean",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2024-01-04T14:50:35Z",
+   "updatedAt": "2026-10-05T17:27:01Z",
+   "stars": 118
+  }
+ },
+ {
+  "repo": "leanprover/reference-manual",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Lean Language Reference",
+    "section": "Official resources",
+    "primary": false,
+    "description": "Comprehensive reference manual for the language ([GitHub](https://github.com/leanprover/reference-manual))."
+   }
+  ],
+  "reservoir": {
+   "description": "The Lean reference manual",
+   "keywords": [],
+   "homepage": "https://lean-lang.org/doc/reference/latest/",
+   "license": "Apache-2.0",
+   "createdAt": "2024-07-01T07:18:26Z",
+   "updatedAt": "2026-10-10T23:43:41Z",
+   "stars": 133
+  }
+ },
+ {
+  "repo": "leanprover/reservoir",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Reservoir",
+    "section": "Getting started",
+    "primary": false,
+    "description": "Official registry of Lean packages ([GitHub](https://github.com/leanprover/reservoir))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover/SampCert",
+  "branch": null,
+  "entries": [
+   {
+    "name": "SampCert",
+    "section": "Software verification",
+    "primary": true,
+    "description": "Verified implementation of differential privacy samplers."
+   }
+  ],
+  "reservoir": {
+   "description": "SampCert : Verified Differential Privacy",
+   "keywords": [],
+   "homepage": "https://leanprover.github.io/SampCert/",
+   "license": "Apache-2.0",
+   "createdAt": "2024-01-27T20:52:34Z",
+   "updatedAt": "2026-09-25T17:49:04Z",
+   "stars": 105
+  }
+ },
+ {
+  "repo": "leanprover/theorem_proving_in_lean4",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Theorem Proving in Lean 4",
+    "section": "Books and tutorials",
+    "primary": false,
+    "description": "The standard introduction to dependent type theory and proving in Lean ([GitHub](https://github.com/leanprover/theorem_proving_in_lean4))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover/verso",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Verso",
+    "section": "Editors and tooling",
+    "primary": false,
+    "description": "Authoring tool for documentation, books and websites written in Lean ([GitHub](https://github.com/leanprover/verso))."
+   }
+  ],
+  "reservoir": {
+   "description": "Lean documentation authoring tool",
+   "keywords": [],
+   "homepage": "https://verso.lean-lang.org/",
+   "license": "Apache-2.0",
+   "createdAt": "2023-12-06T08:49:17Z",
+   "updatedAt": "2026-10-10T18:15:17Z",
+   "stars": 394
+  }
+ },
+ {
+  "repo": "leanprover/verso-templates",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Verso templates",
+    "section": "Editors and tooling",
+    "primary": true,
+    "description": "Ready-to-copy starter projects for Verso textbooks, blogs and websites, with a setup script."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "leanprover/vscode-lean4",
+  "branch": null,
+  "entries": [
+   {
+    "name": "VS Code extension",
+    "section": "Editors and tooling",
+    "primary": true,
+    "description": "Official Lean 4 extension for Visual Studio Code, with infoview."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "lecopivo/SciLean",
+  "branch": null,
+  "entries": [
+   {
+    "name": "SciLean",
+    "section": "Thematic projects",
+    "primary": true,
+    "description": "Lean project for formalizing scientific computing."
+   }
+  ],
+  "reservoir": {
+   "description": "Scientific computing in Lean 4",
+   "keywords": [],
+   "homepage": "https://lecopivo.github.io/scientific-computing-lean/",
+   "license": "Apache-2.0",
+   "createdAt": "2021-09-27T21:50:10Z",
+   "updatedAt": "2026-10-11T03:42:08Z",
+   "stars": 534
+  }
+ },
+ {
+  "repo": "math-inc/Sphere-Packing-Lean",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Sphere Packing",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Completed formalization of Viazovska's sphere packing optimality in dimensions 8 and 24."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "merely-true/merely-true",
+  "branch": null,
+  "entries": [
+   {
+    "name": "merely-true",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Permissive, CI-gated repository of AI-generated mathematics with no manual review."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "microsoft/SymCrypt",
+  "branch": "feature/verifiedcrypto",
+  "entries": [
+   {
+    "name": "Verified SymCrypt",
+    "section": "Software verification",
+    "primary": false,
+    "description": "Microsoft Research verifies Rust cryptography in SymCrypt with Aeneas and Lean ([GitHub](https://github.com/microsoft/SymCrypt/tree/feature/verifiedcrypto))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "momonpya/eggshell",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Eggshell",
+    "section": "Tools for AI",
+    "primary": true,
+    "description": "Local memory that lets AI agents reuse prior work across chats, with a core and contracts written in Lean."
+   }
+  ],
+  "reservoir": {
+   "description": "Local memory for Codex. Reuse work across chats without LLM calls to organize it.",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2026-08-29T14:14:24Z",
+   "updatedAt": "2026-10-11T15:21:44Z",
+   "stars": 26
+  }
+ },
+ {
+  "repo": "MoonshotAI/Kimina-Prover-Preview",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Kimina-Prover",
+    "section": "Models and provers",
+    "primary": true,
+    "description": "Open reasoning-based prover for Lean 4."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "nikhgarg/AppliedModelingLib",
+  "branch": null,
+  "entries": [
+   {
+    "name": "AppliedModelingLib",
+    "section": "Thematic projects",
+    "primary": true,
+    "description": "AI-assisted workflow for formalizing economics and computation research papers, formerly also named EconCSLib ([paper](https://arxiv.org/abs/2606.13306))."
+   }
+  ],
+  "reservoir": {
+   "description": "AI-assisted Lean formalization for Economics and Computation research",
+   "keywords": [
+    "math"
+   ],
+   "homepage": "https://gargnikhil.com/AppliedModelingLib/",
+   "license": "Apache-2.0",
+   "createdAt": "2026-05-31T15:30:01Z",
+   "updatedAt": "2026-09-28T17:35:52Z",
+   "stars": 30
+  }
+ },
+ {
+  "repo": "nomeata/loogle",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Loogle",
+    "section": "Search",
+    "primary": false,
+    "description": "Search Mathlib by name, constant and type signature patterns ([GitHub](https://github.com/nomeata/loogle))."
+   }
+  ],
+  "reservoir": {
+   "description": "Mathlib search tool",
+   "keywords": [],
+   "homepage": "https://loogle.lean-lang.org/",
+   "license": "Apache-2.0",
+   "createdAt": "2023-08-19T09:38:12Z",
+   "updatedAt": "2026-09-30T11:47:14Z",
+   "stars": 155
+  }
+ },
+ {
+  "repo": "NyxFoundation/lean-atlas",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Lean Atlas",
+    "section": "Editors and tooling",
+    "primary": true,
+    "description": "Interactive dependency-graph viewer that narrows down what humans must review in AI-assisted formalizations."
+   },
+   {
+    "name": "Lean Atlas",
+    "section": "Papers",
+    "primary": false,
+    "description": "Integrated proof environment for scalable human-AI collaborative formalization ([GitHub](https://github.com/NyxFoundation/lean-atlas))."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "oOo0oOo/lean-lsp-mcp",
+  "branch": null,
+  "entries": [
+   {
+    "name": "lean-lsp-mcp",
+    "section": "Tools for AI",
+    "primary": true,
+    "description": "Model Context Protocol server exposing the Lean language server to agents."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "PatrickMassot/leanblueprint",
+  "branch": null,
+  "entries": [
+   {
+    "name": "leanblueprint",
+    "section": "Editors and tooling",
+    "primary": true,
+    "description": "Plastex plugin for writing blueprints that track large formalization projects."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "strata-org/Strata",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Strata",
+    "section": "Software verification",
+    "primary": true,
+    "description": "Extensible intermediate verification language framework built in Lean."
+   }
+  ],
+  "reservoir": {
+   "description": null,
+   "keywords": [],
+   "homepage": "https://strata-org.github.io/Strata/",
+   "license": "Apache-2.0",
+   "createdAt": "2025-07-23T18:06:13Z",
+   "updatedAt": "2026-10-11T13:09:38Z",
+   "stars": 274
+  }
+ },
+ {
+  "repo": "TauCetiProject/TauCeti",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Tau Ceti",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Library of formal mathematics written by AI contributors under human-directed roadmaps, incubated by the Lean FRO and the Mathlib Initiative."
+   }
+  ],
+  "reservoir": {
+   "description": "An AIs-welcome Lean library downstream of Mathlib: AI handle the implementation and review, humans write the roadmaps and review rubrics",
+   "keywords": [],
+   "homepage": "https://taucetiproject.org/",
+   "license": "Apache-2.0",
+   "createdAt": "2026-06-02T07:00:12Z",
+   "updatedAt": "2026-10-11T18:06:01Z",
+   "stars": 219
+  }
+ },
+ {
+  "repo": "teorth/analysis",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Analysis I",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Lean companion to Terence Tao's Analysis I textbook."
+   }
+  ],
+  "reservoir": {
+   "description": "A Lean companion to Analysis I",
+   "keywords": [],
+   "homepage": "https://teorth.github.io/analysis/",
+   "license": "Apache-2.0",
+   "createdAt": "2025-05-31T18:49:43Z",
+   "updatedAt": "2026-10-11T05:42:13Z",
+   "stars": 1947
+  }
+ },
+ {
+  "repo": "teorth/equational_theories",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Equational Theories Project",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Large-scale collaborative exploration of implications between magma laws."
+   }
+  ],
+  "reservoir": {
+   "description": "A project to map out the relations between different equational theories of Magmas.",
+   "keywords": [],
+   "homepage": "https://teorth.github.io/equational_theories/",
+   "license": "Apache-2.0",
+   "createdAt": "2024-09-26T15:39:21Z",
+   "updatedAt": "2026-10-11T14:53:49Z",
+   "stars": 559
+  }
+ },
+ {
+  "repo": "teorth/pfr",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Polynomial Freiman-Ruzsa",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Formalization of the PFR conjecture proof, led by Terence Tao."
+   }
+  ],
+  "reservoir": {
+   "description": "Repository for formalization of the Polynomial Freiman Ruzsa conjecture (and related results)",
+   "keywords": [
+    "math",
+    "additive-combinatorics",
+    "information-theory"
+   ],
+   "homepage": "https://teorth.github.io/pfr/",
+   "license": "Apache-2.0",
+   "createdAt": "2023-11-12T23:57:47Z",
+   "updatedAt": "2026-10-10T06:58:07Z",
+   "stars": 243
+  }
+ },
+ {
+  "repo": "trishullab/PutnamBench",
+  "branch": null,
+  "entries": [
+   {
+    "name": "PutnamBench",
+    "section": "Benchmarks and datasets",
+    "primary": true,
+    "description": "Benchmark of Putnam competition problems."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "tydeu/lean4-alloy",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Alloy",
+    "section": "Libraries",
+    "primary": true,
+    "description": "Write C FFI code inline in Lean."
+   }
+  ],
+  "reservoir": {
+   "description": "Write C shims from within Lean code.",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2021-11-19T01:54:10Z",
+   "updatedAt": "2026-09-15T17:10:25Z",
+   "stars": 85
+  }
+ },
+ {
+  "repo": "verse-lab/loom",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Loom",
+    "section": "Software verification",
+    "primary": true,
+    "description": "Framework for building foundational multi-modal program verifiers in Lean."
+   }
+  ],
+  "reservoir": {
+   "description": "Loom is a framework for automated generation of foundational multi-modal verifiers. This repository is a mirror with stable snapshots. Submit issues and PRs here.",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2025-08-15T05:32:57Z",
+   "updatedAt": "2026-10-07T20:07:11Z",
+   "stars": 164
+  }
+ },
+ {
+  "repo": "verse-lab/veil",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Veil",
+    "section": "Software verification",
+    "primary": true,
+    "description": "Framework for verifying distributed protocols."
+   },
+   {
+    "name": "Lessons from Building an Auto-Active Verifier in Lean",
+    "section": "Papers",
+    "primary": false,
+    "description": "Experience report on building Veil, Dafny 2026 workshop at POPL ([GitHub](https://github.com/verse-lab/veil))."
+   }
+  ],
+  "reservoir": {
+   "description": "A verifier for automated and interactive proofs about transition systems.",
+   "keywords": [],
+   "homepage": null,
+   "license": "Apache-2.0",
+   "createdAt": "2025-02-01T09:20:48Z",
+   "updatedAt": "2026-10-10T22:44:48Z",
+   "stars": 327
+  }
+ },
+ {
+  "repo": "verse-lab/velvet",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Velvet",
+    "section": "Software verification",
+    "primary": true,
+    "description": "Dafny-style verifier for imperative programs that mixes SMT automation with interactive Lean proofs."
+   },
+   {
+    "name": "Velvet: A Foundational Multi-Modal Verifier for Imperative Programs in Lean",
+    "section": "Papers",
+    "primary": false,
+    "description": "CAV 2026 distinguished paper ([GitHub](https://github.com/verse-lab/velvet))."
+   }
+  ],
+  "reservoir": {
+   "description": "An auto-active program verifier in Lean",
+   "keywords": [],
+   "homepage": "https://velvetprover.dev",
+   "license": "Apache-2.0",
+   "createdAt": "2026-02-13T11:33:32Z",
+   "updatedAt": "2026-10-10T15:32:52Z",
+   "stars": 128
+  }
+ },
+ {
+  "repo": "yangky11/miniF2F-lean4",
+  "branch": null,
+  "entries": [
+   {
+    "name": "miniF2F (Lean 4)",
+    "section": "Benchmarks and datasets",
+    "primary": true,
+    "description": "Olympiad-level formal problem benchmark."
+   }
+  ],
+  "reservoir": {
+   "description": null,
+   "keywords": [],
+   "homepage": null,
+   "license": "MIT",
+   "createdAt": "2023-08-28T20:09:32Z",
+   "updatedAt": "2026-07-21T04:40:00Z",
+   "stars": 75
+  }
+ },
+ {
+  "repo": "YuanheZ/lean-stat-learning-theory",
+  "branch": null,
+  "entries": [
+   {
+    "name": "Statistical Learning Theory",
+    "section": "Mathematics formalization projects",
+    "primary": true,
+    "description": "Sorry-free Lean 4 library for statistical learning theory, built with human-AI collaboration."
+   }
+  ],
+  "reservoir": null
+ },
+ {
+  "repo": "zhangir-azerbayev/ProofNet",
+  "branch": null,
+  "entries": [
+   {
+    "name": "ProofNet",
+    "section": "Benchmarks and datasets",
+    "primary": true,
+    "description": "Benchmark for autoformalization and proving of undergraduate mathematics."
+   }
+  ],
+  "reservoir": null
+ }
+]
