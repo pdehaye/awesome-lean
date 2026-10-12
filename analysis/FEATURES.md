@@ -57,3 +57,7 @@ These six cover most of the creativity found in the [repo cards](cards/), and ea
 4. **`decide +kernel` vs `native_decide` vs `axiom` (7, 9):** where trust actually sits.
 5. **`Std.Do` / `mvcgen` / `Lean.Meta.Sym` (13):** brand-new machinery that hardly anyone uses yet.
 6. **Widgets + Frontend APIs (16, 17):** Lean as an interactive engine.
+
+## Deep dives
+
+See [`features/`](features/README.md) for close readings of syntax categories and elaborators, ProofWidgets, Verso and the REPL.
