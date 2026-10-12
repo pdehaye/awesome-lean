@@ -1,0 +1,1298 @@
+{
+ "repo": "jongwony/epistemic-protocols",
+ "url": "https://github.com/jongwony/epistemic-protocols",
+ "branch": "main",
+ "commit": "4559c62fcc99d83b7e5d2c9f4df66f72055144fe",
+ "commit_date": "2026-10-12T15:17:01+09:00",
+ "files": 383,
+ "lean_files": 28,
+ "agent_kinds": [
+  "agents_md",
+  "claude",
+  "skills"
+ ],
+ "agent_files": {
+  ".claude/hooks/README.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2653,
+   "copied": true
+  },
+  ".claude/hooks/_guidances/gh-address-comments.mjs": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1671,
+   "copied": true
+  },
+  ".claude/hooks/claude_dispatcher.mjs": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1625,
+   "copied": true
+  },
+  ".claude/hooks/codex_dispatcher.mjs": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1842,
+   "copied": true
+  },
+  ".claude/principles/AGENTS.md": {
+   "kinds": [
+    "claude",
+    "agents_md"
+   ],
+   "bytes": 3648,
+   "copied": true
+  },
+  ".claude/principles/CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 9,
+   "copied": true
+  },
+  ".claude/principles/architectural-principles.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 15683,
+   "copied": true
+  },
+  ".claude/principles/hermeneutic-cycle.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 5735,
+   "copied": true
+  },
+  ".claude/principles/outcome-equivalence.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2424,
+   "copied": true
+  },
+  ".claude/principles/project-profile-calibration.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1688,
+   "copied": true
+  },
+  ".claude/principles/safeguards.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 8260,
+   "copied": true
+  },
+  ".claude/rules/editing-conventions.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1145,
+   "copied": true
+  },
+  ".claude/rules/instruction-surface-revision.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2466,
+   "copied": true
+  },
+  ".claude/rules/protocol-repair.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3293,
+   "copied": true
+  },
+  ".claude/rules/type-category-convention.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 9676,
+   "copied": true
+  },
+  ".claude/settings.json": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 320,
+   "copied": true
+  },
+  ".claude/skills/encapsulation/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 8082,
+   "copied": true
+  },
+  ".claude/skills/encapsulation/references/audit-engine.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 6494,
+   "copied": true
+  },
+  ".claude/skills/formal-review/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 14137,
+   "copied": true
+  },
+  ".claude/skills/outcome/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 5096,
+   "copied": true
+  },
+  ".claude/skills/outcome/cases/inquire-rate-limiter/case.json": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1639,
+   "copied": true
+  },
+  ".claude/skills/outcome/references/runbook.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 8803,
+   "copied": true
+  },
+  ".claude/skills/outcome/scripts/lib.mjs": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 18666,
+   "copied": true
+  },
+  ".claude/skills/outcome/scripts/lib.test.mjs": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 10844,
+   "copied": true
+  },
+  ".claude/skills/outcome/scripts/outcome.mjs": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 31527,
+   "copied": true
+  },
+  ".claude/skills/outcome/scripts/turn-claude.sh": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2500,
+   "copied": true
+  },
+  ".claude/skills/realize/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 13429,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-map-gate/case.yaml": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 420,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-map-gate/graders/contrary-grounds-shown.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2445,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-map-gate/graders/method-written-out.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 4233,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-map-gate/graders/turn-ends-at-gate.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3354,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-map-gate/prompt.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 713,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-relay/case.yaml": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 427,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-relay/graders/map-relayed-before-dispatch.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 4533,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-relay/graders/proceed-observed.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3221,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-relay/prompt.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2077,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-scaffold.sh": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 9381,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-taking-with-change/case.yaml": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 701,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-taking-with-change/graders/map-relayed-before-dispatch.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 4628,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-taking-with-change/graders/relayed-not-gated.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3486,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-taking-with-change/graders/turn-ends-at-gate.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 741,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-taking-with-change/oracle.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3017,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-taking-with-change/prompt.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 735,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/conduct-taking-with-change/reply-1.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 199,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/case.yaml": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 952,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/graders/activation-silent.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1106,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/graders/adoption-valid.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2094,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/graders/basis-faithful.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2972,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/graders/continuation-authorized.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1258,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/graders/gate-stopped.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2138,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/graders/person-closes.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1510,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/graders/record-cites-person.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2980,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/graders/residual-and-dissent-kept.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2198,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/graders/skill-fired.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 814,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/graders/substrate-read.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3022,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/graders/turn-ends-at-gate.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1176,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/graders/value-stands.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1656,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/oracle.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 6564,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-aporia/prompt.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 411,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-axis-determined/case.yaml": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 753,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-axis-determined/graders/closes-then-proceeds.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2463,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-axis-determined/graders/first-surface-faithful.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2679,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-axis-determined/graders/record-honest.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1615,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-axis-determined/graders/skill-fired.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 529,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-axis-determined/oracle.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1543,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-axis-determined/prompt.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1582,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/elicit-scaffold.sh": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 12352,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/case.yaml": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 916,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/graders/closes-on-user-word.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2148,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/graders/does-not-test.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2187,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/graders/map-grounded.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3036,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/graders/refutes-in-one-round.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3855,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/graders/result-meets-both.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3306,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/graders/stops-for-user.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2365,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/graders/target-preserved.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1794,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/graders/target-read-first.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1526,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/oracle.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 4685,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/prompt.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 430,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/reply-1.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 439,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/reply-2.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 415,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/reply-3.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 169,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/reply-4.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 203,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-adjudicable/reply-5.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 94,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/case.yaml": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 918,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/graders/closes-on-user-word.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2148,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/graders/does-not-test.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2187,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/graders/map-grounded.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3059,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/graders/no-verdict-names-need.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3173,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/graders/stops-for-user.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2365,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/graders/target-preserved.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1728,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/graders/target-read-first.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1526,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/oracle.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3030,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/prompt.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 508,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/reply-1.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 404,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/reply-2.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 249,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/reply-3.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 171,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/grasp-unattachable/reply-4.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 94,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-fully-specified/case.yaml": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 326,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-fully-specified/graders/nothing-open-relay.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2794,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-fully-specified/graders/proceed-observed.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2244,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-fully-specified/graders/skill-fired.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 546,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-fully-specified/oracle.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1184,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-fully-specified/prompt.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1078,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-underspecified/case.yaml": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 414,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-underspecified/graders/answer-openings.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2507,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-underspecified/graders/basis-faithful.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 4043,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-underspecified/graders/cheap-evidence-not-asked.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2077,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-underspecified/graders/collection-observed.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 584,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-underspecified/graders/collection-precedes-inquiry.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1023,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-underspecified/graders/ownership-kept.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3675,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-underspecified/graders/skill-fired.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 557,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-underspecified/oracle.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 6101,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/inquire-underspecified/prompt.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 369,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/scaffold-grasp.sh": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3982,
+   "copied": true
+  },
+  ".claude/skills/realize/evals/scaffold.sh": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2137,
+   "copied": true
+  },
+  ".claude/skills/realize/harness.config.json": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1994,
+   "copied": true
+  },
+  ".claude/skills/realize/references/grader-design.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 14804,
+   "copied": true
+  },
+  ".claude/skills/realize/references/runbook.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 15662,
+   "copied": true
+  },
+  ".claude/skills/realize/scripts/harness.mjs": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 64147,
+   "copied": true
+  },
+  ".claude/skills/realize/scripts/harness.test.mjs": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 26840,
+   "copied": true
+  },
+  ".claude/skills/realize/scripts/run.sh": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2935,
+   "copied": true
+  },
+  ".claude/skills/realize/scripts/setup.sh": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1210,
+   "copied": true
+  },
+  ".claude/skills/realize/scripts/teardown.sh": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1492,
+   "copied": true
+  },
+  ".claude/skills/realize/scripts/turn.sh": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 4611,
+   "copied": true
+  },
+  ".claude/skills/rederive/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 17427,
+   "copied": true
+  },
+  ".claude/skills/release/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 11206,
+   "copied": true
+  },
+  ".claude/skills/verify/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 5728,
+   "copied": true
+  },
+  ".claude/skills/verify/references/co-change.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 16096,
+   "copied": true
+  },
+  ".claude/skills/verify/references/criteria.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 6021,
+   "copied": true
+  },
+  ".claude/skills/verify/references/review-checklists.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 8150,
+   "copied": true
+  },
+  ".claude/skills/verify/references/verification.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 10217,
+   "copied": true
+  },
+  ".claude/skills/verify/scripts/artifact-self-containment.js": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 9521,
+   "copied": true
+  },
+  ".claude/skills/verify/scripts/artifact-sync.js": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 56252,
+   "copied": true
+  },
+  ".claude/skills/verify/scripts/check-context.js": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 4344,
+   "copied": true
+  },
+  ".claude/skills/verify/scripts/language-purity.js": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 4124,
+   "copied": true
+  },
+  ".claude/skills/verify/scripts/lean-bridge.js": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 18915,
+   "copied": true
+  },
+  ".claude/skills/verify/scripts/lean-contract.js": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 11064,
+   "copied": true
+  },
+  ".claude/skills/verify/scripts/prose-surface.js": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 12718,
+   "copied": true
+  },
+  ".claude/skills/verify/scripts/static-checks.js": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1267,
+   "copied": true
+  },
+  ".claude/skills/verify/scripts/static-checks.test.mjs": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 27070,
+   "copied": true
+  },
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 18765,
+   "copied": true
+  },
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 9,
+   "copied": true
+  },
+  "aitesis/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 827,
+   "copied": true
+  },
+  "aitesis/skills/inquire/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 30947,
+   "copied": true
+  },
+  "analogia/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 876,
+   "copied": true
+  },
+  "analogia/skills/ground/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 46295,
+   "copied": true
+  },
+  "anamnesis/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 959,
+   "copied": true
+  },
+  "anamnesis/skills/recollect/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 35266,
+   "copied": true
+  },
+  "design/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 717,
+   "copied": true
+  },
+  "docs/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 711,
+   "copied": true
+  },
+  "epharmoge/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 890,
+   "copied": true
+  },
+  "epharmoge/skills/contextualize/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 34850,
+   "copied": true
+  },
+  "epistemic-cooperative/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 553,
+   "copied": true
+  },
+  "epistemic-cooperative/skills/gate-check/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 53167,
+   "copied": true
+  },
+  "epistemic-cooperative/skills/onboard/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 30319,
+   "copied": true
+  },
+  "epistemic-cooperative/skills/probe/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 29971,
+   "copied": true
+  },
+  "epistemic-cooperative/skills/realign/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 29037,
+   "copied": true
+  },
+  "epistemic-cooperative/skills/reduced-space-test/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 22982,
+   "copied": true
+  },
+  "epistemic-cooperative/skills/white-bear/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 10112,
+   "copied": true
+  },
+  "epistemic-cooperative/skills/zero-shot/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 6725,
+   "copied": true
+  },
+  "euporia/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 796,
+   "copied": true
+  },
+  "euporia/skills/elicit/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 24345,
+   "copied": true
+  },
+  "heuresis/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 782,
+   "copied": true
+  },
+  "heuresis/skills/ideate/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 33686,
+   "copied": true
+  },
+  "horismos/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 842,
+   "copied": true
+  },
+  "horismos/skills/bound/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 48610,
+   "copied": true
+  },
+  "hyphegesis/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 889,
+   "copied": true
+  },
+  "hyphegesis/skills/conduct/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 39633,
+   "copied": true
+  },
+  "hypotyposis/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 780,
+   "copied": true
+  },
+  "hypotyposis/skills/sketch/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 43086,
+   "copied": true
+  },
+  "katalepsis/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 983,
+   "copied": true
+  },
+  "katalepsis/skills/grasp/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 29155,
+   "copied": true
+  },
+  "lean/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 1084,
+   "copied": true
+  },
+  "merismos/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 837,
+   "copied": true
+  },
+  "merismos/skills/apportion/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 75170,
+   "copied": true
+  },
+  "periagoge/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 810,
+   "copied": true
+  },
+  "periagoge/skills/induce/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 32007,
+   "copied": true
+  },
+  "proplasma/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 831,
+   "copied": true
+  },
+  "proplasma/skills/preview/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 36885,
+   "copied": true
+  },
+  "route/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 1122,
+   "copied": true
+  },
+  "route/skills/route/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 13952,
+   "copied": true
+  },
+  "scripts/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 638,
+   "copied": true
+  }
+ }
+}

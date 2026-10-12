@@ -1,0 +1,29 @@
+{
+ "repo": "microsoft/SymCrypt",
+ "url": "https://github.com/microsoft/SymCrypt",
+ "branch": "feature/verifiedcrypto",
+ "commit": "c2e575ace0ea4b6b7a4184c1f19b81d1d5b2b5be",
+ "commit_date": "2026-07-12T23:58:14+00:00",
+ "files": 798,
+ "lean_files": 171,
+ "agent_kinds": [
+  "agents_md",
+  "copilot"
+ ],
+ "agent_files": {
+  ".github/copilot-instructions.md": {
+   "kinds": [
+    "copilot"
+   ],
+   "bytes": 155,
+   "copied": true
+  },
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 23746,
+   "copied": true
+  }
+ }
+}

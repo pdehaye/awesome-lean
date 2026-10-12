@@ -1,0 +1,56 @@
+{
+ "repo": "nikhgarg/AppliedModelingLib",
+ "url": "https://github.com/nikhgarg/AppliedModelingLib",
+ "branch": "main",
+ "commit": "194edcc95df74806a39b961d10dedddc6e730cce",
+ "commit_date": "2026-09-28T13:35:46-04:00",
+ "files": 3681,
+ "lean_files": 2232,
+ "agent_kinds": [
+  "skills"
+ ],
+ "agent_files": {
+  "skills/ai-formalization-workflows/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 8136,
+   "copied": true
+  },
+  "skills/econcs-formalizer/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 16787,
+   "copied": true
+  },
+  "skills/econcs-prover/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 30164,
+   "copied": true
+  },
+  "skills/econcs-session-insights/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 12673,
+   "copied": true
+  },
+  "skills/econcs-shared-worktree/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 5680,
+   "copied": true
+  },
+  "skills/lean-community-conventions/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 9348,
+   "copied": true
+  }
+ }
+}

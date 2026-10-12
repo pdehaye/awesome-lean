@@ -1,0 +1,29 @@
+{
+ "repo": "TauCetiProject/TauCeti",
+ "url": "https://github.com/TauCetiProject/TauCeti",
+ "branch": "main",
+ "commit": "997f20505ca173f51b706d44399756c0eb7ff9a6",
+ "commit_date": "2026-10-12T06:16:19+00:00",
+ "files": 13548,
+ "lean_files": 13330,
+ "agent_kinds": [
+  "agents_md",
+  "claude"
+ ],
+ "agent_files": {
+  ".claude/CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 12,
+   "copied": true
+  },
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 6349,
+   "copied": true
+  }
+ }
+}

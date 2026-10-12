@@ -1,0 +1,49 @@
+{
+ "repo": "strata-org/Strata",
+ "url": "https://github.com/strata-org/Strata",
+ "branch": "main",
+ "commit": "a74043b69b98d4197dfd7d59df1b4427dcfc3f37",
+ "commit_date": "2026-10-09T22:30:08+00:00",
+ "files": 1018,
+ "lean_files": 871,
+ "agent_kinds": [
+  "kiro"
+ ],
+ "agent_files": {
+  ".kiro/settings/mcp.json": {
+   "kinds": [
+    "kiro"
+   ],
+   "bytes": 701,
+   "copied": true
+  },
+  ".kiro/steering/plausible-instructions.md": {
+   "kinds": [
+    "kiro"
+   ],
+   "bytes": 3395,
+   "copied": true
+  },
+  ".kiro/steering/structure.md": {
+   "kinds": [
+    "kiro"
+   ],
+   "bytes": 9510,
+   "copied": true
+  },
+  ".kiro/steering/testing-transformations.md": {
+   "kinds": [
+    "kiro"
+   ],
+   "bytes": 3471,
+   "copied": true
+  },
+  ".kiro/steering/writing-proofs.md": {
+   "kinds": [
+    "kiro"
+   ],
+   "bytes": 15354,
+   "copied": true
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "repo": "leanprover/cslib",
+ "url": "https://github.com/leanprover/cslib",
+ "branch": "main",
+ "commit": "4b88bcac4c0dec65b3f45b59e85f5397045efd8d",
+ "commit_date": "2026-10-11T22:43:53+00:00",
+ "files": 371,
+ "lean_files": 306,
+ "agent_kinds": [
+  "agents_md"
+ ],
+ "agent_files": {
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 6925,
+   "copied": true
+  }
+ }
+}

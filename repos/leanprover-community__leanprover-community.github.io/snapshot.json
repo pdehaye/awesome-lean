@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/leanprover-community.github.io",
+ "url": "https://github.com/leanprover-community/leanprover-community.github.io",
+ "branch": "lean4",
+ "commit": "d1f86920fecf52f3f96ddf7f33f0444f469565f0",
+ "commit_date": "2026-10-11T12:03:33+02:00",
+ "files": 152,
+ "lean_files": 0,
+ "agent_kinds": [],
+ "agent_files": {}
+}

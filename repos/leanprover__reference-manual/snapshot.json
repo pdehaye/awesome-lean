@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/reference-manual",
+ "url": "https://github.com/leanprover/reference-manual",
+ "branch": "main",
+ "commit": "349244b4dd2f284728c1dacb621cc74a32f9929b",
+ "commit_date": "2026-10-08T12:20:09+00:00",
+ "files": 663,
+ "lean_files": 273,
+ "agent_kinds": [],
+ "agent_files": {}
+}

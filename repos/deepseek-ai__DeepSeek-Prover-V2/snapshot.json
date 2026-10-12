@@ -1,0 +1,11 @@
+{
+ "repo": "deepseek-ai/DeepSeek-Prover-V2",
+ "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V2",
+ "branch": "main",
+ "commit": "e598a57ea3284997d4a2a168a069fdd5064afbc8",
+ "commit_date": "2025-07-18T16:11:28+08:00",
+ "files": 5,
+ "lean_files": 0,
+ "agent_kinds": [],
+ "agent_files": {}
+}

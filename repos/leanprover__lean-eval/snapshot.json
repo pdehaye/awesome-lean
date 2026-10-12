@@ -1,0 +1,21 @@
+{
+ "repo": "leanprover/lean-eval",
+ "url": "https://github.com/leanprover/lean-eval",
+ "branch": "main",
+ "commit": "38361be884302c7edce1908c4aef8296eb2cb27e",
+ "commit_date": "2026-10-07T23:47:44+00:00",
+ "files": 4021,
+ "lean_files": 2101,
+ "agent_kinds": [
+  "agents_md"
+ ],
+ "agent_files": {
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 288,
+   "copied": true
+  }
+ }
+}

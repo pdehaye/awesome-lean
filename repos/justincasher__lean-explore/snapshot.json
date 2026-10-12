@@ -1,0 +1,21 @@
+{
+ "repo": "justincasher/lean-explore",
+ "url": "https://github.com/justincasher/lean-explore",
+ "branch": "main",
+ "commit": "17b9d6c87a2bf0dc4ea27de05da8a1c9965391b7",
+ "commit_date": "2026-09-28T20:57:44-04:00",
+ "files": 174,
+ "lean_files": 9,
+ "agent_kinds": [
+  "mcp"
+ ],
+ "agent_files": {
+  "plugins/lean-explore/.mcp.json": {
+   "kinds": [
+    "mcp"
+   ],
+   "bytes": 123,
+   "copied": true
+  }
+ }
+}

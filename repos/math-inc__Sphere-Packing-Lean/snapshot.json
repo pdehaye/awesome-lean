@@ -1,0 +1,11 @@
+{
+ "repo": "math-inc/Sphere-Packing-Lean",
+ "url": "https://github.com/math-inc/Sphere-Packing-Lean",
+ "branch": "main",
+ "commit": "1e98fb493088948ca7bbf47d7faed49cc5b39fc4",
+ "commit_date": "2026-03-02T18:31:05+01:00",
+ "files": 889,
+ "lean_files": 830,
+ "agent_kinds": [],
+ "agent_files": {}
+}

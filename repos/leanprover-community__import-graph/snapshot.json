@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/import-graph",
+ "url": "https://github.com/leanprover-community/import-graph",
+ "branch": "main",
+ "commit": "80a81552bef492cc13d69cc7abddb61c29abbba3",
+ "commit_date": "2026-10-09T10:25:42+02:00",
+ "files": 105,
+ "lean_files": 86,
+ "agent_kinds": [],
+ "agent_files": {}
+}

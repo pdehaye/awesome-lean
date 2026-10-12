@@ -1,0 +1,106 @@
+{
+ "repo": "leanprover/lean4",
+ "url": "https://github.com/leanprover/lean4",
+ "branch": "master",
+ "commit": "db7f10e90a71899cfd531a040360b1365f5fd92f",
+ "commit_date": "2026-10-12T00:33:50+00:00",
+ "files": 14337,
+ "lean_files": 7561,
+ "agent_kinds": [
+  "agents_md",
+  "claude",
+  "skills"
+ ],
+ "agent_files": {
+  ".claude/.gitignore": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 42,
+   "copied": true
+  },
+  ".claude/CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 8466,
+   "copied": true
+  },
+  ".claude/commands/release.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 9157,
+   "copied": true
+  },
+  ".claude/settings.json": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 209,
+   "copied": true
+  },
+  ".claude/skills/ci-log-retrieval/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 684,
+   "copied": true
+  },
+  ".claude/skills/profiling/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 1195,
+   "copied": true
+  },
+  ".claude/skills/release-highlights/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 16180,
+   "copied": true
+  },
+  ".claude/skills/stage2-build/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 1030,
+   "copied": true
+  },
+  ".claude/skills/stage2-olean-test/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 1236,
+   "copied": true
+  },
+  ".claude/skills/zulip-extract/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 571,
+   "copied": true
+  },
+  ".claude/skills/zulip-extract/zulip_thread_extract.py": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 9706,
+   "copied": true
+  },
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 17,
+   "copied": true
+  }
+ }
+}

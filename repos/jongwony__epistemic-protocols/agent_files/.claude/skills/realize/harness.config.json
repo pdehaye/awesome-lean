@@ -1,0 +1,91 @@
+{
+  "runner": "claude",
+  "configDir": "~/.claude-eval",
+  "styleSource": "~/.claude/plugins/marketplaces/cc-plugin/ink-figure/styles/epistemic-ink.md",
+  "styleName": "Epistemic Ink",
+  "models": [
+    "claude-sonnet-5"
+  ],
+  "codex": {
+    "stateDir": ".claude/skills/realize/.codex",
+    "models": [
+      "gpt-6-luna"
+    ],
+    "reasoningEffort": "xhigh",
+    "timeoutSeconds": 420
+  },
+  "arms": {
+    "bare": {
+      "protocol": false,
+      "style": false
+    },
+    "style": {
+      "protocol": false,
+      "style": true
+    },
+    "protocol": {
+      "protocol": true,
+      "style": false
+    },
+    "protocol+style": {
+      "protocol": true,
+      "style": true
+    },
+    "protocol-prose": {
+      "protocol": true,
+      "style": false,
+      "formal": false,
+      "optIn": true
+    }
+  },
+  "runs": 1,
+  "maxBudgetUsd": 2,
+  "allowedTools": [
+    "Read",
+    "Grep",
+    "Glob",
+    "Bash",
+    "Write",
+    "Edit"
+  ],
+  "permissionMode": "acceptEdits",
+  "targets": {
+    "inquire": {
+      "pluginDir": "aitesis",
+      "protocolSkill": "inquire",
+      "cases": [
+        "inquire-underspecified",
+        "inquire-fully-specified"
+      ],
+      "invocation": {
+        "claude": "Use `/inquire` first, before any code gets written.",
+        "codex": "Use `$aitesis:inquire` first, before any code gets written."
+      }
+    },
+    "grasp": {
+      "pluginDir": "katalepsis",
+      "protocolSkill": "grasp",
+      "cases": [
+        "grasp-adjudicable",
+        "grasp-unattachable"
+      ],
+      "invocation": {
+        "claude": "Use `/grasp` for this.",
+        "codex": "Use `$katalepsis:grasp` for this."
+      }
+    },
+    "conduct": {
+      "pluginDir": "hyphegesis",
+      "protocolSkill": "conduct",
+      "cases": [
+        "conduct-map-gate",
+        "conduct-taking-with-change",
+        "conduct-relay"
+      ],
+      "invocation": {
+        "claude": "Use `/conduct` for this.",
+        "codex": "Use `$hyphegesis:conduct` for this."
+      }
+    }
+  }
+}

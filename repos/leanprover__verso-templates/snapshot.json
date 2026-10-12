@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/verso-templates",
+ "url": "https://github.com/leanprover/verso-templates",
+ "branch": "main",
+ "commit": "e8824806a39886900b76570a0b65f4f49f820441",
+ "commit_date": "2026-10-06T20:09:21+02:00",
+ "files": 86,
+ "lean_files": 35,
+ "agent_kinds": [],
+ "agent_files": {}
+}

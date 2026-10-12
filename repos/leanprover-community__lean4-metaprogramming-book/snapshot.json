@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/lean4-metaprogramming-book",
+ "url": "https://github.com/leanprover-community/lean4-metaprogramming-book",
+ "branch": "master",
+ "commit": "751fbaef53de26bd97c2b7ec18487e11700801f3",
+ "commit_date": "2026-10-08T19:56:20+09:00",
+ "files": 43,
+ "lean_files": 23,
+ "agent_kinds": [],
+ "agent_files": {}
+}

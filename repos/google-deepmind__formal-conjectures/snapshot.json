@@ -1,0 +1,21 @@
+{
+ "repo": "google-deepmind/formal-conjectures",
+ "url": "https://github.com/google-deepmind/formal-conjectures",
+ "branch": "main",
+ "commit": "1944481b0c71d78f034d998f01d1dd42a46d7c92",
+ "commit_date": "2026-10-12T06:29:16+00:00",
+ "files": 1838,
+ "lean_files": 1750,
+ "agent_kinds": [
+  "agents_md"
+ ],
+ "agent_files": {
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 4515,
+   "copied": true
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/lean-liquid",
+ "url": "https://github.com/leanprover-community/lean-liquid",
+ "branch": "master",
+ "commit": "ee4795874a99ea5f9d85bd0b364425f07b932377",
+ "commit_date": "2026-10-02T17:08:05+10:00",
+ "files": 439,
+ "lean_files": 412,
+ "agent_kinds": [],
+ "agent_files": {}
+}

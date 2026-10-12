@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/lean4checker",
+ "url": "https://github.com/leanprover/lean4checker",
+ "branch": "master",
+ "commit": "91a7f0e8e9dffe927089f5a6edcfeeb8a0e07709",
+ "commit_date": "2026-03-25T00:16:52+00:00",
+ "files": 28,
+ "lean_files": 16,
+ "agent_kinds": [],
+ "agent_files": {}
+}

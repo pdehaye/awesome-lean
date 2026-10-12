@@ -1,0 +1,21 @@
+{
+ "repo": "momonpya/eggshell",
+ "url": "https://github.com/momonpya/eggshell",
+ "branch": "main",
+ "commit": "51873167c11c447a0af67e73430b5ab6635b2a65",
+ "commit_date": "2026-10-10T23:29:36+09:00",
+ "files": 158,
+ "lean_files": 82,
+ "agent_kinds": [
+  "skills"
+ ],
+ "agent_files": {
+  "plugins/eggshell/skills/eggshell/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 5894,
+   "copied": true
+  }
+ }
+}

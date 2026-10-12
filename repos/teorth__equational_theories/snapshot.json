@@ -1,0 +1,11 @@
+{
+ "repo": "teorth/equational_theories",
+ "url": "https://github.com/teorth/equational_theories",
+ "branch": "main",
+ "commit": "1aec8a7acf223b7c56e4830977b6e90d4ef1924b",
+ "commit_date": "2026-09-12T09:18:05+02:00",
+ "files": 2441,
+ "lean_files": 1300,
+ "agent_kinds": [],
+ "agent_files": {}
+}

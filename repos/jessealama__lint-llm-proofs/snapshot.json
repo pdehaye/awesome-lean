@@ -1,0 +1,11 @@
+{
+ "repo": "jessealama/lint-llm-proofs",
+ "url": "https://github.com/jessealama/lint-llm-proofs",
+ "branch": "main",
+ "commit": "d1d57fbca40375c670790ff472ea34caad60586e",
+ "commit_date": "2026-01-08T14:37:22+01:00",
+ "files": 20,
+ "lean_files": 13,
+ "agent_kinds": [],
+ "agent_files": {}
+}
