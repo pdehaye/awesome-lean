@@ -84,6 +84,12 @@ Lean is a functional programming language that makes it easy to write correct an
 - [Comparator](https://github.com/leanprover/comparator) - Sandboxed, trustworthy judge that independently re-checks Lean proofs against a challenge statement.
 - [Lean Atlas](https://github.com/NyxFoundation/lean-atlas) - Interactive dependency-graph viewer that narrows down what humans must review in AI-assisted formalizations.
 - [import-graph](https://github.com/leanprover-community/import-graph) - Tool to visualize and analyze the import structure of Lean projects.
+- [LeanArchitect](https://github.com/hanwenzhu/LeanArchitect) - Generates blueprint data directly from `@[blueprint]`-tagged Lean declarations.
+- [Leaff](https://github.com/alexjbest/leaff) - Diff tool summarizing the differences between two versions of a Lean environment, fast enough for Mathlib.
+- [lean4checker](https://github.com/leanprover/lean4checker) - Replays a module's environment to confirm every declaration is accepted by the kernel.
+- [gonzalgo](https://github.com/zengineco/gonzalgo) - Declaration graph keeping statement and proof dependencies apart, showing where a library spends its axioms.
+- [jixia](https://github.com/frenzymath/jixia) - Static analysis tool extracting source-level declaration data, for IDEs and machine learning.
+- [leaner](https://github.com/SrGaabriel/leaner) - Linter, formatter and whole-program dead code eliminator.
 
 ## Search
 
@@ -172,6 +178,7 @@ Lean is a functional programming language that makes it easy to write correct an
 - [lean-lsp-mcp](https://github.com/oOo0oOo/lean-lsp-mcp) - Model Context Protocol server exposing the Lean language server to agents.
 - [Eggshell](https://github.com/momonpya/eggshell) - Local memory that lets AI agents reuse prior work across chats, with a core and contracts written in Lean.
 - [Epistemic Protocols](https://github.com/jongwony/epistemic-protocols) - Human-AI collaboration protocols whose contracts are modeled and checked in Lean.
+- [lint-llm-proofs](https://github.com/jessealama/lint-llm-proofs) - Linters with automatic fixes for patterns typical of LLM-generated proofs.
 
 ## Papers
 
