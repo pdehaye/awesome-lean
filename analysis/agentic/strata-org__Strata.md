@@ -1,0 +1,27 @@
+# strata-org/Strata: agent setup
+
+- **Snapshot:** commit `a74043b` (2026-10-09), from `repos/strata-org__Strata/snapshot.json`.
+- **Tools targeted:** Kiro (steering files with `inclusion:` front matter, `.kiro/settings/mcp.json`) and, through that config, the lean-lsp MCP server.
+- **Files:**
+  - `.kiro/steering/structure.md` (always included): repo map, core concepts, build commands, an implementation workflow.
+  - `.kiro/steering/writing-proofs.md` (always included): a method for writing proofs.
+  - `.kiro/steering/plausible-instructions.md` and `testing-transformations.md`: included only for files matching `StrataTest/**`, `Examples/**` or `Strata/Transform/**`; they cover property-based testing with Plausible.
+  - `.kiro/settings/mcp.json`: lean-lsp-mcp setup.
+- **What agents are asked to do:** add features to dialects and transformations, write correctness proofs (`*Correct.lean`), and write property-based tests.
+- **Build and verification:** `lake build`, `lake test`, `lake exe strata verify Examples/SimpleProc.core.st`. Agents should also "Check template compiles" before filling in proofs, and check helper functions with `#guard`.
+- **Proof policy:** `sorry` is allowed as a temporary placeholder: "Create Lean template with sorry's", then "Fill in the sorry's". Where possible, "use the `plausible` tactic instead of `sorry`" so false steps show up as counterexamples. Proofs are "optional but encouraged". Nothing is said about axioms, `native_decide` or changing theorem statements.
+- **Lean and Mathlib guidance:**
+  - Write an "informal hierarchical proof" as Lean comments first.
+  - "If the informal proof says 'by induction', make it a separate lemma"; a `have` vs separate-lemma table.
+  - Measurement functions must be **total** (not `partial`), and generators depth-bounded (2–4 levels).
+  - Plausible instances (`Repr`, `Shrinkable`, `Arbitrary`) with worked examples.
+  - Loogle, LeanSearch and others are reachable through the MCP tools.
+- **Skills, commands, hooks, MCP:** one MCP server, `lean-lsp` (`uvx lean-lsp-mcp`). It auto-approves 19 tools, including `lean_build`, `lean_goal`, `lean_multi_attempt`, `lean_loogle`, `lean_leansearch`, `lean_hammer_premise` and `lean_verify`; one entry is misspelled (`loan_local_search`). No skills, commands or hooks.
+- **Permissions and safety:** only the MCP auto-approve list. Process rules: "**CRITICAL: Always read relevant files before implementing**" and "Never assume structure or conventions".
+- **Human oversight:** none stated.
+- **Notable ideas:**
+  - Write the informal proof, then a sorry skeleton, then fill it in, with a rule for when to split out lemmas.
+  - Use `plausible` as a placeholder that can falsify a step, instead of a bare `sorry`.
+  - Load testing guidance only when the agent touches test or transform files (scoped steering).
+- **Lean-specificity:** high. The steering is almost entirely Lean proof method, Plausible usage and Lean build and MCP tooling.
+- **Evidence:** all five files under `agent_files/.kiro/`.

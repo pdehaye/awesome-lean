@@ -1,0 +1,28 @@
+# AeneasVerif/aeneas: agent setup
+
+- **Snapshot:** commit `d119a47` (2026-10-08), from `repos/AeneasVerif__aeneas/snapshot.json`.
+- **Tools targeted:** Claude Code (`CLAUDE.md`, `.claude/skills/`) and GitHub Copilot (`.github/skills/`; `CLAUDE.md` says the files are also linked to `.github/instructions/`).
+- **Files:** `CLAUDE.md` (an index that sends agents to the skill files and docs); 11 `SKILL.md` files under `.claude/skills/` and another 11 under `.github/skills/`. All 22 are symlinks. The snapshot holds only their targets (e.g. `../../../documentation/skills/proof-patterns.instructions.md`), so the skill text itself was not captured.
+- **What agents are asked to do:** going by the skill names and the `CLAUDE.md` table: compiler development, writing specs and proofs about Rust code translated to Lean, crypto verification ("Montgomery, NTT"), formalizing crypto specs, "multi-agent proof orchestration, review gates", planning "large verification campaigns", managing a fleet of agents, and writing new skill files.
+- **Build and verification:** none stated in `CLAUDE.md`. Its table says build rules are in `aeneas-compiler-dev` ("Dev workflow, formatting, tests, … **build rules**"), but that content isn't in the snapshot.
+- **Proof policy:** none stated in the captured files. `aeneas-tactics-quickref` covers "banned tactics", but which tactics are banned isn't visible.
+- **Lean and Mathlib guidance:** links to `documentation/proof-strategies.md`, `tactics-reference.md`, `tips-and-tricks.md`, `crypto-verification.md` and a glossary. Interactive proof work goes through `lean-lsp-mcp`.
+- **Skills, commands, hooks, MCP:**
+  - `aeneas-compiler-dev`: dev workflow, formatting, tests, error macros, build rules.
+  - `aeneas-lean-core`: translation model, spec patterns, tactic reference, pitfalls.
+  - `aeneas-tactics-quickref`: tactic decision tree, banned tactics, combinations.
+  - `lean-lsp-mcp`: using the lean-lsp-mcp tools for interactive proofs (the repo has no MCP config file).
+  - `launching-proof-agents`: multi-agent proof orchestration and review gates.
+  - `verification-campaigns`: planning and running large verification campaigns.
+  - `proof-patterns`: worked examples (loops, dot products, comparisons).
+  - `aeneas-crypto-verification`: crypto-specific proof strategies.
+  - `agent-fleet-management`, `formalizing-crypto-specs`, `skill-file-authoring`: present, but missing from the `CLAUDE.md` table.
+  - Commands, hooks: none.
+- **Permissions and safety:** none stated. The only explicit rule is "**Always edit files in `documentation/skills/`**", which keeps the symlinks in sync (the repo also has `scripts/sync-skills.sh`).
+- **Human oversight:** "review gates" are mentioned for multi-agent proofs, with no detail captured.
+- **Notable ideas:**
+  - Keep one source of truth in `documentation/skills/*.instructions.md` and symlink it into the Claude and Copilot skill folders.
+  - Write skills for scale, covering proof-agent fleets and verification campaigns rather than single proofs.
+  - Offer a tactic decision tree with a banned-tactics list.
+- **Lean-specificity:** high. Nearly every skill is about Lean proofs of Aeneas-generated code (tactics, specs, lean-lsp-mcp), though the details sit in files the snapshot didn't capture.
+- **Evidence:** `CLAUDE.md`; all 22 `SKILL.md` files (each a symlink path only); `tree.txt` for `documentation/skills/`, `.github/instructions` and `scripts/sync-skills.sh`.
