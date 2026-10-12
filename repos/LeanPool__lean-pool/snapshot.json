@@ -19,7 +19,7 @@
     "skills"
    ],
    "bytes": 4998,
-   "copied": true
+   "copied_to": "agent_files/.claude/skills/version-bump-project/SKILL.md.txt"
   },
   ".claude/skills/version-bump/SKILL.md": {
    "kinds": [
@@ -27,28 +27,28 @@
     "skills"
    ],
    "bytes": 7537,
-   "copied": true
+   "copied_to": "agent_files/.claude/skills/version-bump/SKILL.md.txt"
   },
   ".github/instructions/review.instructions.md": {
    "kinds": [
     "copilot"
    ],
    "bytes": 2646,
-   "copied": true
+   "copied_to": "agent_files/.github/instructions/review.instructions.md.txt"
   },
   "AGENTS.md": {
    "kinds": [
     "agents_md"
    ],
    "bytes": 11550,
-   "copied": true
+   "copied_to": "agent_files/AGENTS.md.txt"
   },
   "CLAUDE.md": {
    "kinds": [
     "claude"
    ],
    "bytes": 11550,
-   "copied": true
+   "copied_to": "agent_files/CLAUDE.md.txt"
   }
  }
 }

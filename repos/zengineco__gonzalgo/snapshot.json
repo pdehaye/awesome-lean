@@ -16,35 +16,35 @@
     "plugins"
    ],
    "bytes": 447,
-   "copied": true
+   "copied_to": "agent_files/.agents/plugins/marketplace.json.txt"
   },
   ".claude-plugin/plugin.json": {
    "kinds": [
     "plugins"
    ],
    "bytes": 758,
-   "copied": true
+   "copied_to": "agent_files/.claude-plugin/plugin.json.txt"
   },
   ".codex-plugin/plugin.json": {
    "kinds": [
     "plugins"
    ],
    "bytes": 1513,
-   "copied": true
+   "copied_to": "agent_files/.codex-plugin/plugin.json.txt"
   },
   "skills/lean-axiom-provenance/SKILL.md": {
    "kinds": [
     "skills"
    ],
    "bytes": 10574,
-   "copied": true
+   "copied_to": "agent_files/skills/lean-axiom-provenance/SKILL.md.txt"
   },
   "skills/lean-generated-proof-audit/SKILL.md": {
    "kinds": [
     "skills"
    ],
    "bytes": 6604,
-   "copied": true
+   "copied_to": "agent_files/skills/lean-generated-proof-audit/SKILL.md.txt"
   }
  }
 }

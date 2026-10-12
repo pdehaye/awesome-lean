@@ -17,14 +17,14 @@
    ],
    "symlink_to": "AGENTS.md",
    "bytes": 6349,
-   "copied": true
+   "copied_to": "agent_files/.claude/CLAUDE.md.txt"
   },
   "AGENTS.md": {
    "kinds": [
     "agents_md"
    ],
    "bytes": 6349,
-   "copied": true
+   "copied_to": "agent_files/AGENTS.md.txt"
   }
  }
 }

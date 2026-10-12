@@ -16,14 +16,14 @@
     "plugins"
    ],
    "bytes": 2515,
-   "copied": true
+   "copied_to": "agent_files/plugins/eggshell/.codex-plugin/plugin.json.txt"
   },
   "plugins/eggshell/skills/eggshell/SKILL.md": {
    "kinds": [
     "skills"
    ],
    "bytes": 5894,
-   "copied": true
+   "copied_to": "agent_files/plugins/eggshell/skills/eggshell/SKILL.md.txt"
   }
  }
 }

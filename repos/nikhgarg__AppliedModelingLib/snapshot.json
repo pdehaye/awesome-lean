@@ -15,42 +15,42 @@
     "skills"
    ],
    "bytes": 8136,
-   "copied": true
+   "copied_to": "agent_files/skills/ai-formalization-workflows/SKILL.md.txt"
   },
   "skills/econcs-formalizer/SKILL.md": {
    "kinds": [
     "skills"
    ],
    "bytes": 16787,
-   "copied": true
+   "copied_to": "agent_files/skills/econcs-formalizer/SKILL.md.txt"
   },
   "skills/econcs-prover/SKILL.md": {
    "kinds": [
     "skills"
    ],
    "bytes": 30164,
-   "copied": true
+   "copied_to": "agent_files/skills/econcs-prover/SKILL.md.txt"
   },
   "skills/econcs-session-insights/SKILL.md": {
    "kinds": [
     "skills"
    ],
    "bytes": 12673,
-   "copied": true
+   "copied_to": "agent_files/skills/econcs-session-insights/SKILL.md.txt"
   },
   "skills/econcs-shared-worktree/SKILL.md": {
    "kinds": [
     "skills"
    ],
    "bytes": 5680,
-   "copied": true
+   "copied_to": "agent_files/skills/econcs-shared-worktree/SKILL.md.txt"
   },
   "skills/lean-community-conventions/SKILL.md": {
    "kinds": [
     "skills"
    ],
    "bytes": 9348,
-   "copied": true
+   "copied_to": "agent_files/skills/lean-community-conventions/SKILL.md.txt"
   }
  }
 }

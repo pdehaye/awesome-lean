@@ -17,28 +17,28 @@
     "claude"
    ],
    "bytes": 42,
-   "copied": true
+   "copied_to": "agent_files/.claude/.gitignore.txt"
   },
   ".claude/CLAUDE.md": {
    "kinds": [
     "claude"
    ],
    "bytes": 8466,
-   "copied": true
+   "copied_to": "agent_files/.claude/CLAUDE.md.txt"
   },
   ".claude/commands/release.md": {
    "kinds": [
     "claude"
    ],
    "bytes": 9157,
-   "copied": true
+   "copied_to": "agent_files/.claude/commands/release.md.txt"
   },
   ".claude/settings.json": {
    "kinds": [
     "claude"
    ],
    "bytes": 209,
-   "copied": true
+   "copied_to": "agent_files/.claude/settings.json.txt"
   },
   ".claude/skills/ci-log-retrieval/SKILL.md": {
    "kinds": [
@@ -46,7 +46,7 @@
     "skills"
    ],
    "bytes": 684,
-   "copied": true
+   "copied_to": "agent_files/.claude/skills/ci-log-retrieval/SKILL.md.txt"
   },
   ".claude/skills/profiling/SKILL.md": {
    "kinds": [
@@ -54,7 +54,7 @@
     "skills"
    ],
    "bytes": 1195,
-   "copied": true
+   "copied_to": "agent_files/.claude/skills/profiling/SKILL.md.txt"
   },
   ".claude/skills/release-highlights/SKILL.md": {
    "kinds": [
@@ -62,7 +62,7 @@
     "skills"
    ],
    "bytes": 16180,
-   "copied": true
+   "copied_to": "agent_files/.claude/skills/release-highlights/SKILL.md.txt"
   },
   ".claude/skills/stage2-build/SKILL.md": {
    "kinds": [
@@ -70,7 +70,7 @@
     "skills"
    ],
    "bytes": 1030,
-   "copied": true
+   "copied_to": "agent_files/.claude/skills/stage2-build/SKILL.md.txt"
   },
   ".claude/skills/stage2-olean-test/SKILL.md": {
    "kinds": [
@@ -78,7 +78,7 @@
     "skills"
    ],
    "bytes": 1236,
-   "copied": true
+   "copied_to": "agent_files/.claude/skills/stage2-olean-test/SKILL.md.txt"
   },
   ".claude/skills/zulip-extract/SKILL.md": {
    "kinds": [
@@ -86,14 +86,14 @@
     "skills"
    ],
    "bytes": 571,
-   "copied": true
+   "copied_to": "agent_files/.claude/skills/zulip-extract/SKILL.md.txt"
   },
   ".claude/skills/zulip-extract/zulip_thread_extract.py": {
    "kinds": [
     "claude"
    ],
    "bytes": 9706,
-   "copied": true
+   "copied_to": "agent_files/.claude/skills/zulip-extract/zulip_thread_extract.py.txt"
   },
   "AGENTS.md": {
    "kinds": [
@@ -101,7 +101,7 @@
    ],
    "symlink_to": ".claude/CLAUDE.md",
    "bytes": 8466,
-   "copied": true
+   "copied_to": "agent_files/AGENTS.md.txt"
   }
  }
 }

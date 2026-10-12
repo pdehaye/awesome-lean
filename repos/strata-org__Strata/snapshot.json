@@ -15,35 +15,35 @@
     "kiro"
    ],
    "bytes": 701,
-   "copied": true
+   "copied_to": "agent_files/.kiro/settings/mcp.json.txt"
   },
   ".kiro/steering/plausible-instructions.md": {
    "kinds": [
     "kiro"
    ],
    "bytes": 3395,
-   "copied": true
+   "copied_to": "agent_files/.kiro/steering/plausible-instructions.md.txt"
   },
   ".kiro/steering/structure.md": {
    "kinds": [
     "kiro"
    ],
    "bytes": 9510,
-   "copied": true
+   "copied_to": "agent_files/.kiro/steering/structure.md.txt"
   },
   ".kiro/steering/testing-transformations.md": {
    "kinds": [
     "kiro"
    ],
    "bytes": 3471,
-   "copied": true
+   "copied_to": "agent_files/.kiro/steering/testing-transformations.md.txt"
   },
   ".kiro/steering/writing-proofs.md": {
    "kinds": [
     "kiro"
    ],
    "bytes": 15354,
-   "copied": true
+   "copied_to": "agent_files/.kiro/steering/writing-proofs.md.txt"
   }
  }
 }

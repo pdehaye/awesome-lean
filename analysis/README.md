@@ -10,5 +10,6 @@ An analysis of the repositories linked from the [list](../README.md): where Lean
 | Phase 3 | [`SYNTHESIS.md`](SYNTHESIS.md) | Role table, trust breakdown, 14 patterns of creative use, open ideas. |
 | Features | [`FEATURES.md`](FEATURES.md) | 23 Lean language features worth exploring, with usage counts. Script: [`feature_scan.sh`](feature_scan.sh). |
 | Deep dives | [`features/`](features/README.md) | How syntax categories and elaborators, ProofWidgets, Verso and the REPL work, with code from the repos. |
+| Agent setups | [`agentic/`](agentic/README.md) | How the 21 listed repositories with AI-agent configuration set it up: one card each and a synthesis (proof policies, statement integrity, tooling, oversight). |
 
 To reproduce Phase 1: `python3 phase0_inventory.py && python3 phase1_signals.py <clone-dir>`. The repos are cloned sparsely (Lean sources and build files only).

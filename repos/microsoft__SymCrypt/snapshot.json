@@ -16,14 +16,14 @@
     "copilot"
    ],
    "bytes": 155,
-   "copied": true
+   "copied_to": "agent_files/.github/copilot-instructions.md.txt"
   },
   "AGENTS.md": {
    "kinds": [
     "agents_md"
    ],
    "bytes": 23746,
-   "copied": true
+   "copied_to": "agent_files/AGENTS.md.txt"
   }
  }
 }
