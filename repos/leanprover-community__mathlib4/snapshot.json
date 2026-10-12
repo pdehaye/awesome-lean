@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/mathlib4",
+ "url": "https://github.com/leanprover-community/mathlib4",
+ "branch": "master",
+ "commit": "ff787258a3d97c4079c6dd8906211832dff5a00d",
+ "commit_date": "2026-10-12T06:26:08+00:00",
+ "files": 9391,
+ "lean_files": 9214,
+ "agent_kinds": [],
+ "agent_files": {}
+}

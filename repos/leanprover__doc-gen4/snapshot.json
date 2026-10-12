@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/doc-gen4",
+ "url": "https://github.com/leanprover/doc-gen4",
+ "branch": "main",
+ "commit": "fd5ce8f50b90096067f4e5d867611b585e951dbb",
+ "commit_date": "2026-10-06T16:28:36+02:00",
+ "files": 84,
+ "lean_files": 49,
+ "agent_kinds": [],
+ "agent_files": {}
+}

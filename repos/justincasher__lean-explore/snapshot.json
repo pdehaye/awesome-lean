@@ -1,0 +1,50 @@
+{
+ "repo": "justincasher/lean-explore",
+ "url": "https://github.com/justincasher/lean-explore",
+ "branch": "main",
+ "commit": "17b9d6c87a2bf0dc4ea27de05da8a1c9965391b7",
+ "commit_date": "2026-09-28T20:57:44-04:00",
+ "files": 174,
+ "lean_files": 9,
+ "agent_kinds": [
+  "mcp",
+  "plugins"
+ ],
+ "agent_files": {
+  ".agents/plugins/marketplace.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 381,
+   "copied_to": "agent_files/.agents/plugins/marketplace.json.txt"
+  },
+  ".claude-plugin/marketplace.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 423,
+   "copied_to": "agent_files/.claude-plugin/marketplace.json.txt"
+  },
+  "plugins/lean-explore/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 448,
+   "copied_to": "agent_files/plugins/lean-explore/.claude-plugin/plugin.json.txt"
+  },
+  "plugins/lean-explore/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1385,
+   "copied_to": "agent_files/plugins/lean-explore/.codex-plugin/plugin.json.txt"
+  },
+  "plugins/lean-explore/.mcp.json": {
+   "kinds": [
+    "mcp"
+   ],
+   "bytes": 123,
+   "copied_to": "agent_files/plugins/lean-explore/.mcp.json.txt"
+  }
+ }
+}

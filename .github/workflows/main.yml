@@ -10,3 +10,8 @@ jobs:
         with:
           fetch-depth: 0
       - run: npx awesome-lint
+  Repos_CSV:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/repos_csv.py --check

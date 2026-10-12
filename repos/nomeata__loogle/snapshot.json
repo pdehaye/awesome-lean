@@ -1,0 +1,21 @@
+{
+ "repo": "nomeata/loogle",
+ "url": "https://github.com/nomeata/loogle",
+ "branch": "master",
+ "commit": "9f11169aaebf1ed1e7dcc4077f2aafe0fcf66fd0",
+ "commit_date": "2026-07-09T11:41:21+02:00",
+ "files": 42,
+ "lean_files": 17,
+ "agent_kinds": [
+  "claude"
+ ],
+ "agent_files": {
+  ".claude/commands/bump-js-deps.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1274,
+   "copied_to": "agent_files/.claude/commands/bump-js-deps.md.txt"
+  }
+ }
+}

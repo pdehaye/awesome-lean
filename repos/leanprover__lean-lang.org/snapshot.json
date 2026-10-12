@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/lean-lang.org",
+ "url": "https://github.com/leanprover/lean-lang.org",
+ "branch": "master",
+ "commit": "2c193f12cbeec8ce2a50e9442a86dd2ab5bad830",
+ "commit_date": "2026-08-13T10:24:55+08:00",
+ "files": 3,
+ "lean_files": 0,
+ "agent_kinds": [],
+ "agent_files": {}
+}

@@ -1,0 +1,11 @@
+{
+ "repo": "cedar-policy/cedar-spec",
+ "url": "https://github.com/cedar-policy/cedar-spec",
+ "branch": "main",
+ "commit": "6d7fb269d5eec6ce4ae1d4aff9794feba0c0d5a9",
+ "commit_date": "2026-10-09T15:33:56-04:00",
+ "files": 847,
+ "lean_files": 360,
+ "agent_kinds": [],
+ "agent_files": {}
+}

@@ -1,0 +1,54 @@
+{
+ "repo": "LeanPool/lean-pool",
+ "url": "https://github.com/LeanPool/lean-pool",
+ "branch": "main",
+ "commit": "7761cb6eaf14404048722f8b43f9bcebcabeda61",
+ "commit_date": "2026-10-11T11:43:02+00:00",
+ "files": 26714,
+ "lean_files": 25617,
+ "agent_kinds": [
+  "agents_md",
+  "claude",
+  "copilot",
+  "skills"
+ ],
+ "agent_files": {
+  ".claude/skills/version-bump-project/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 4998,
+   "copied_to": "agent_files/.claude/skills/version-bump-project/SKILL.md.txt"
+  },
+  ".claude/skills/version-bump/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 7537,
+   "copied_to": "agent_files/.claude/skills/version-bump/SKILL.md.txt"
+  },
+  ".github/instructions/review.instructions.md": {
+   "kinds": [
+    "copilot"
+   ],
+   "bytes": 2646,
+   "copied_to": "agent_files/.github/instructions/review.instructions.md.txt"
+  },
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 11550,
+   "copied_to": "agent_files/AGENTS.md.txt"
+  },
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 11550,
+   "copied_to": "agent_files/CLAUDE.md.txt"
+  }
+ }
+}

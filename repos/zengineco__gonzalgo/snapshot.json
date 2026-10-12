@@ -1,0 +1,50 @@
+{
+ "repo": "zengineco/gonzalgo",
+ "url": "https://github.com/zengineco/gonzalgo",
+ "branch": "main",
+ "commit": "dd04e84fec33d9641ccfd7016bb40e6b456e8475",
+ "commit_date": "2026-10-03T06:16:07+00:00",
+ "files": 84,
+ "lean_files": 10,
+ "agent_kinds": [
+  "plugins",
+  "skills"
+ ],
+ "agent_files": {
+  ".agents/plugins/marketplace.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 447,
+   "copied_to": "agent_files/.agents/plugins/marketplace.json.txt"
+  },
+  ".claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 758,
+   "copied_to": "agent_files/.claude-plugin/plugin.json.txt"
+  },
+  ".codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1513,
+   "copied_to": "agent_files/.codex-plugin/plugin.json.txt"
+  },
+  "skills/lean-axiom-provenance/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 10574,
+   "copied_to": "agent_files/skills/lean-axiom-provenance/SKILL.md.txt"
+  },
+  "skills/lean-generated-proof-audit/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 6604,
+   "copied_to": "agent_files/skills/lean-generated-proof-audit/SKILL.md.txt"
+  }
+ }
+}

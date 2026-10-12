@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/lean4-mode",
+ "url": "https://github.com/leanprover-community/lean4-mode",
+ "branch": "master",
+ "commit": "6d4030e494039383664a0c08348a5c137eb4641c",
+ "commit_date": "2026-09-28T14:58:54+10:00",
+ "files": 20,
+ "lean_files": 0,
+ "agent_kinds": [],
+ "agent_files": {}
+}

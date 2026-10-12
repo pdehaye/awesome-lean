@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/LNSym",
+ "url": "https://github.com/leanprover/LNSym",
+ "branch": "main",
+ "commit": "5c05220ff970e3bdd7813ad0c9ef3741522c8b92",
+ "commit_date": "2024-12-09T13:18:55-06:00",
+ "files": 268,
+ "lean_files": 196,
+ "agent_kinds": [],
+ "agent_files": {}
+}

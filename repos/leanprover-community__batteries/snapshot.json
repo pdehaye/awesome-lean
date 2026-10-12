@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/batteries",
+ "url": "https://github.com/leanprover-community/batteries",
+ "branch": "main",
+ "commit": "9bfcda9fca2e9438b8a77b6e61e5880f69a82540",
+ "commit_date": "2026-10-11T15:07:16-04:00",
+ "files": 300,
+ "lean_files": 271,
+ "agent_kinds": [],
+ "agent_files": {}
+}

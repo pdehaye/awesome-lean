@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/SampCert",
+ "url": "https://github.com/leanprover/SampCert",
+ "branch": "main",
+ "commit": "a2c53bb5ff790e729e252958060699b7eff898b9",
+ "commit_date": "2026-09-25T13:48:58-04:00",
+ "files": 134,
+ "lean_files": 108,
+ "agent_kinds": [],
+ "agent_files": {}
+}

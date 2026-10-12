@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PROJECT_DIR}/.claude/hooks/claude_dispatcher.mjs",
+            "statusMessage": "Evaluating hook guidance"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/lean4web",
+ "url": "https://github.com/leanprover-community/lean4web",
+ "branch": "main",
+ "commit": "9c4cd4f4ed804b06a24257788894314c93008276",
+ "commit_date": "2026-10-02T17:25:36+10:00",
+ "files": 114,
+ "lean_files": 6,
+ "agent_kinds": [],
+ "agent_files": {}
+}

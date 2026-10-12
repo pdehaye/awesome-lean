@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/reservoir",
+ "url": "https://github.com/leanprover/reservoir",
+ "branch": "master",
+ "commit": "a5774ea3b51fef4a496f35c791cfa660c914454f",
+ "commit_date": "2026-09-09T01:49:48+00:00",
+ "files": 86,
+ "lean_files": 0,
+ "agent_kinds": [],
+ "agent_files": {}
+}

@@ -1,0 +1,11 @@
+{
+ "repo": "MoonshotAI/Kimina-Prover-Preview",
+ "url": "https://github.com/MoonshotAI/Kimina-Prover-Preview",
+ "branch": "master",
+ "commit": "7abd61a5d9861bf5c15b195c216c1bb233ac32e4",
+ "commit_date": "2025-07-10T13:04:35+00:00",
+ "files": 13,
+ "lean_files": 0,
+ "agent_kinds": [],
+ "agent_files": {}
+}

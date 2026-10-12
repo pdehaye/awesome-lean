@@ -1,0 +1,9 @@
+{
+  "name": "analogia",
+  "description": "Check what an analogy, framework, or earlier design carried to a case actually supports — /ground (ἀναλογία: a proportion)",
+  "version": "4.8.0",
+  "author": {
+    "name": "Jongwon Choi",
+    "url": "https://github.com/jongwony"
+  }
+}

@@ -1,0 +1,21 @@
+{
+ "repo": "gametheoryinlean/EconCSLib",
+ "url": "https://github.com/gametheoryinlean/EconCSLib",
+ "branch": "main",
+ "commit": "b1cd89ab554ef9098b5de60935d62f518a700775",
+ "commit_date": "2026-10-11T20:44:28+08:00",
+ "files": 797,
+ "lean_files": 169,
+ "agent_kinds": [
+  "agents_md"
+ ],
+ "agent_files": {
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 7977,
+   "copied_to": "agent_files/AGENTS.md.txt"
+  }
+ }
+}

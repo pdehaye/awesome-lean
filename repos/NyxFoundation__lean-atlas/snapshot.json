@@ -1,0 +1,21 @@
+{
+ "repo": "NyxFoundation/lean-atlas",
+ "url": "https://github.com/NyxFoundation/lean-atlas",
+ "branch": "main",
+ "commit": "3a81e194db0e6c41a2a8c5286f9e1b4962c3866a",
+ "commit_date": "2026-05-04T00:01:09+09:00",
+ "files": 113,
+ "lean_files": 24,
+ "agent_kinds": [
+  "claude"
+ ],
+ "agent_files": {
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 4640,
+   "copied_to": "agent_files/CLAUDE.md.txt"
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "repo": "leanprover/elan",
+ "url": "https://github.com/leanprover/elan",
+ "branch": "master",
+ "commit": "9605b24b08cf68b78dce0014b6fa01be1f8e2cee",
+ "commit_date": "2026-10-10T10:53:32+00:00",
+ "files": 68,
+ "lean_files": 0,
+ "agent_kinds": [
+  "claude"
+ ],
+ "agent_files": {
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 6084,
+   "copied_to": "agent_files/CLAUDE.md.txt"
+  }
+ }
+}

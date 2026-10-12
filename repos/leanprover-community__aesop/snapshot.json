@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/aesop",
+ "url": "https://github.com/leanprover-community/aesop",
+ "branch": "master",
+ "commit": "04879b1e1de744d5c9777c8cf63fa55a8f652e5e",
+ "commit_date": "2026-10-06T14:16:18+00:00",
+ "files": 258,
+ "lean_files": 250,
+ "agent_kinds": [],
+ "agent_files": {}
+}

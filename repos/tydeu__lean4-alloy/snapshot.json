@@ -1,0 +1,11 @@
+{
+ "repo": "tydeu/lean4-alloy",
+ "url": "https://github.com/tydeu/lean4-alloy",
+ "branch": "master",
+ "commit": "be37dab91e3b0d62c64d180fa29ed3d3c4d8bf8b",
+ "commit_date": "2025-07-13T10:14:41-04:00",
+ "files": 69,
+ "lean_files": 55,
+ "agent_kinds": [],
+ "agent_files": {}
+}

@@ -1,0 +1,11 @@
+{
+ "repo": "ammkrn/type_checking_in_lean4",
+ "url": "https://github.com/ammkrn/type_checking_in_lean4",
+ "branch": "main",
+ "commit": "2ec9cadf98449a7aa05580e2591c9aa3522ff647",
+ "commit_date": "2026-03-21T19:44:22-07:00",
+ "files": 30,
+ "lean_files": 0,
+ "agent_kinds": [],
+ "agent_files": {}
+}

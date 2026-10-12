@@ -1,0 +1,21 @@
+{
+ "repo": "leanprover/vscode-lean4",
+ "url": "https://github.com/leanprover/vscode-lean4",
+ "branch": "master",
+ "commit": "dead846a035f42dc13beb7619ac779538e6ddf6e",
+ "commit_date": "2026-09-30T09:47:44-04:00",
+ "files": 336,
+ "lean_files": 11,
+ "agent_kinds": [
+  "claude"
+ ],
+ "agent_files": {
+  ".claude/CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 5033,
+   "copied_to": "agent_files/.claude/CLAUDE.md.txt"
+  }
+ }
+}

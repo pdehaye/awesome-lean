@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/duper",
+ "url": "https://github.com/leanprover-community/duper",
+ "branch": "main",
+ "commit": "5940907b9581beb2fd08b9d0b0682c2b0c9c15b8",
+ "commit_date": "2026-09-28T14:58:10+10:00",
+ "files": 155,
+ "lean_files": 134,
+ "agent_kinds": [],
+ "agent_files": {}
+}

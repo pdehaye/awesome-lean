@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/theorem_proving_in_lean4",
+ "url": "https://github.com/leanprover/theorem_proving_in_lean4",
+ "branch": "master",
+ "commit": "4e28129fdd58037f8f5857548d5e99fe4fb0cc57",
+ "commit_date": "2026-08-14T06:29:29+02:00",
+ "files": 307,
+ "lean_files": 17,
+ "agent_kinds": [],
+ "agent_files": {}
+}

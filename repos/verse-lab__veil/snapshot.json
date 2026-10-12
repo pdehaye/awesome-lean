@@ -1,0 +1,21 @@
+{
+ "repo": "verse-lab/veil",
+ "url": "https://github.com/verse-lab/veil",
+ "branch": "main",
+ "commit": "529eb3bde3ea9b84b39a90a32ed8e56c5d8741f1",
+ "commit_date": "2026-10-12T14:20:04+08:00",
+ "files": 387,
+ "lean_files": 315,
+ "agent_kinds": [
+  "claude"
+ ],
+ "agent_files": {
+  ".claude/CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 956,
+   "copied_to": "agent_files/.claude/CLAUDE.md.txt"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "repo": "brettkoonce/lean4-mlir",
+ "url": "https://github.com/brettkoonce/lean4-mlir",
+ "branch": "main",
+ "commit": "3336f4a78663ac9a4ce5914309a2b739af1dc6e9",
+ "commit_date": "2026-10-11T20:55:45+00:00",
+ "files": 4908,
+ "lean_files": 624,
+ "agent_kinds": [],
+ "agent_files": {}
+}

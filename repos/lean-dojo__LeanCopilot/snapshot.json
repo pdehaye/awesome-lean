@@ -1,0 +1,11 @@
+{
+ "repo": "lean-dojo/LeanCopilot",
+ "url": "https://github.com/lean-dojo/LeanCopilot",
+ "branch": "main",
+ "commit": "385e78c16b1db4d05c86f405aaa2acb367a50b0e",
+ "commit_date": "2026-10-01T17:22:22-04:00",
+ "files": 54,
+ "lean_files": 25,
+ "agent_kinds": [],
+ "agent_files": {}
+}

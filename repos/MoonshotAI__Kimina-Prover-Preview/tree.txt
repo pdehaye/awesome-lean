@@ -1,0 +1,13 @@
+Kimina_Prover_Preview.pdf
+README.md
+images/formal-reasoning-pattern.png
+images/logo_kn.png
+images/main_result.png
+images/rl-pipeline.png
+kimina_prover_demo/README.md
+kimina_prover_demo/error_fix.py
+kimina_prover_demo/lemma_use.py
+kimina_prover_demo/requirements.txt
+kimina_prover_demo/utils.py
+minif2f_test_solved.zip
+minif2f_test_solved_filtered_0710.zip

@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/lean4game",
+ "url": "https://github.com/leanprover-community/lean4game",
+ "branch": "main",
+ "commit": "4cf6d2b1639a465c87e24edcf258144d421ac2ee",
+ "commit_date": "2026-10-11T20:17:44+02:00",
+ "files": 234,
+ "lean_files": 36,
+ "agent_kinds": [],
+ "agent_files": {}
+}

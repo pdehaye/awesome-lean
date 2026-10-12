@@ -1,0 +1,11 @@
+{
+ "repo": "Goedel-LM/Goedel-Prover-V2",
+ "url": "https://github.com/Goedel-LM/Goedel-Prover-V2",
+ "branch": "main",
+ "commit": "2e9036e118464aa96a8bebaf9f5b9d091aa3585c",
+ "commit_date": "2025-08-27T14:13:25-04:00",
+ "files": 23,
+ "lean_files": 0,
+ "agent_kinds": [],
+ "agent_files": {}
+}

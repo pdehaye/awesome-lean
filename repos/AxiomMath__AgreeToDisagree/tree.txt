@@ -1,0 +1,15 @@
+.github/workflows/lean.yml
+.gitignore
+AgreeToDisagree.lean
+AgreeToDisagree/AgreeToDisagree.lean
+AgreeToDisagree/AgreeToDisagreeBeliefs.lean
+LICENSE
+README.md
+input/AgreeToDisagree.lean
+input/AgreeToDisagreeBeliefs.lean
+lake-manifest.json
+lakefile.toml
+lean-toolchain
+logo.svg
+output/AgreeToDisagree.lean
+output/AgreeToDisagreeBeliefs.lean

@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/iris-lean",
+ "url": "https://github.com/leanprover-community/iris-lean",
+ "branch": "master",
+ "commit": "0d5f252bf74ffccef7cad8ac99dcdecb1113b94a",
+ "commit_date": "2026-10-09T17:05:53+02:00",
+ "files": 355,
+ "lean_files": 314,
+ "agent_kinds": [],
+ "agent_files": {}
+}

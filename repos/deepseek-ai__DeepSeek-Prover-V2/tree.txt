@@ -1,0 +1,5 @@
+DeepSeek_Prover_V2.pdf
+LICENSE-MODEL
+README.md
+figures/performance.png
+minif2f-solutions.zip

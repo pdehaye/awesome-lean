@@ -1,0 +1,23 @@
+# NyxFoundation/lean-atlas: agent setup
+
+- **Snapshot:** commit `3a81e19` (2026-05-04), from `repos/NyxFoundation__lean-atlas/snapshot.json`.
+- **Tools targeted:** Claude Code (`CLAUDE.md`).
+- **Files:** `CLAUDE.md`: project overview, dev commands, architecture of the Lean backend and the Next.js frontend, design patterns, configuration, CLI options.
+- **What agents are asked to do:** no task list. The file is descriptive and supports work on the Lean metaprogramming backend (dependency analysis, metadata attributes, JSON export) and the React frontend.
+- **Build and verification:**
+  - Lean: `lake build`, `lake exe atlas serve`, `lake exe atlas deps`, `lake exe atlas graph-data`.
+  - Frontend: `cd web && pnpm run build`, `pnpm run lint`.
+  - Root: `pnpm run format`.
+  - No test command is given.
+- **Proof policy:** none stated for the repo's own code. The tool itself tracks proof status (`ProofProgress`: `complete` / `mostly` / `partially` / `stub`) and has a `hasSorry` API.
+- **Lean and Mathlib guidance:**
+  - Toolchain `leanprover/lean4:v4.24.0-rc1`, with options `relaxedAutoImplicit = false` and `pp.unicode.fun = true`.
+  - Explains the persistent environment extensions used for each metadata attribute, the type-only vs value-only dependency split, and filtering of compiler-generated names (`_private`, `match_`).
+- **Skills, commands, hooks, MCP:** none.
+- **Permissions and safety:** none stated.
+- **Human oversight:** none stated.
+- **Notable ideas:**
+  - Describe Lean-specific design decisions (environment extensions, type vs value dependencies) so agents keep to them.
+  - Use one file for a two-language (Lean plus TypeScript) repo, with commands for each side.
+- **Lean-specificity:** medium. The Lean architecture is described in Lean terms, but there are no rules for agents, and half the file covers the frontend.
+- **Evidence:** `agent_files/CLAUDE.md`.

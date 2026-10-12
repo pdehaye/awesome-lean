@@ -1,0 +1,11 @@
+{
+ "repo": "avigad/lamr",
+ "url": "https://github.com/avigad/lamr",
+ "branch": "main",
+ "commit": "06907e8513fbebdcd8422925e7203ef58ca17d78",
+ "commit_date": "2026-01-11T14:40:32-05:00",
+ "files": 70,
+ "lean_files": 47,
+ "agent_kinds": [],
+ "agent_files": {}
+}

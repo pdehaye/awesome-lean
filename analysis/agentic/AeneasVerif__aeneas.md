@@ -1,0 +1,31 @@
+# AeneasVerif/aeneas: agent setup
+
+- **Snapshot:** commit `d119a47` (2026-10-08), from `repos/AeneasVerif__aeneas/snapshot.json`.
+- **Tools targeted:** Claude Code and GitHub Copilot.
+- **Files:** `CLAUDE.md`, an index that lists 8 of the 11 skills. 11 `SKILL.md` files are symlinked from `documentation/skills/`; the `.claude` and `.github` copies are identical.
+- **What agents are asked to do:** write `@[step]` specs and proofs for Lean code generated from Rust; formalize crypto standards; run fleets of statement, proof and review agents; develop the OCaml compiler.
+- **Build and verification:** iterate with lean-lsp-mcp. Run `lake build` once at the start to warm the LSP and once at the end. "NEVER run `lake clean`". Before handoff, `lake build <module>` must show 0 errors, and `lean_verify` checks axioms.
+- **Proof policy:**
+  - Sorry'd proofs are fine, but sorry'd **definitions** are "NEVER acceptable".
+  - "Agents must NEVER convert a sorry into an axiom." Transparent functions are never axiomatized, except for raw-pointer operations.
+  - Axioms go in `Axioms/` and get an immediate dedicated review ("a wrong axiom is a silent lie").
+  - The spec "must not be modified".
+  - Postconditions must be full-correctness equalities that pass a "vacuity test".
+- **Lean and Mathlib guidance:**
+  - Banned: `omega`, `linarith`, `nlinarith` ("no exceptions"), `congr` (use `fcongr`), `all_goals`, `step* <;>`, named `cases` arms, `partial_fixpoint_induct`, raising `maxRecDepth`.
+  - Use `agrind` by default, not `simp_all`; after `step*`, add one `· agrind` per goal.
+  - Targets: proofs under 60 s, under 0.5 s per added tactic, `maxHeartbeats` below 8M. The only allowed warning is the `sorry` warning.
+- **Skills, commands, hooks, MCP:**
+  - Proving: `aeneas-lean-core`, `aeneas-tactics-quickref`, `lean-lsp-mcp` ("STOP IMMEDIATELY" if the tools are missing), `proof-patterns`.
+  - Crypto: `aeneas-crypto-verification`, `formalizing-crypto-specs` (line-by-line RFC fidelity).
+  - Orchestration: `launching-proof-agents`, `agent-fleet-management`, `verification-campaigns`.
+  - Maintenance: `skill-file-authoring`, `aeneas-compiler-dev`.
+  - No MCP config file or hooks.
+- **Permissions and safety:** "hard ban" on `git checkout`, `restore`, `stash` and `reset`; "DO NOT COMMIT"; no sub-agents that start Lean processes; in a shared clone, agents edit only their assigned files.
+- **Human oversight:** the user picks how statements are reviewed and approves plans. Rust bugs are reported "IMMEDIATELY". Each review is "a full review from scratch". Only the user can kill agents.
+- **Notable ideas:**
+  - Write statements first, review them (vacuity and composability tests), then prove.
+  - Ban tactics because they break incremental elaboration, not only because they give weak proofs.
+  - Run a cleaning step between agent waves.
+- **Lean-specificity:** high. Nearly every rule concerns Lean tactics, elaboration speed, axiom hygiene or the LSP workflow. Minor inconsistencies: `get_elem_tactic` is overridden with `agrind` in one skill and `grind` in another, and an example uses the banned `omega`.
+- **Evidence:** `CLAUDE.md`; all 11 `.claude/skills/*/SKILL.md` read in full (the `.github` copies were diffed and are identical); `snapshot.json`.

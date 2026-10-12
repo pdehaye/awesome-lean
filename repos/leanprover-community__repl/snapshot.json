@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/repl",
+ "url": "https://github.com/leanprover-community/repl",
+ "branch": "master",
+ "commit": "70b404f181ce92effe7d1a1845692f998e1eacf8",
+ "commit_date": "2026-10-07T11:38:15+02:00",
+ "files": 188,
+ "lean_files": 25,
+ "agent_kinds": [],
+ "agent_files": {}
+}

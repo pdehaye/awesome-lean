@@ -1,0 +1,22 @@
+# justincasher/lean-explore: agent setup
+
+- **Snapshot:** commit `17b9d6c` (2026-09-28), from `repos/justincasher__lean-explore/snapshot.json`.
+- **Tools targeted:** Claude Code (`.claude-plugin/` marketplace and plugin manifests), Codex (`.codex-plugin/plugin.json`, `.agents/plugins/marketplace.json`) and any MCP client (`.mcp.json`).
+- **Files:**
+  - `.claude-plugin/marketplace.json`: Claude marketplace "lean-explore" listing one plugin at `./plugins/lean-explore`, version 0.1.0.
+  - `.agents/plugins/marketplace.json`: Codex-style marketplace with the same plugin, `"installation": "AVAILABLE"`, `"authentication": "ON_INSTALL"`, category "Developer Tools".
+  - `plugins/lean-explore/.claude-plugin/plugin.json`: name, version, author, Apache-2.0 license, homepage `https://www.leanexplore.com/docs/mcp`, keywords (`lean4`, `mathlib`, `theorem-proving`).
+  - `plugins/lean-explore/.codex-plugin/plugin.json`: the same metadata plus an `interface` block, and `"mcpServers": "./.mcp.json"`.
+  - `plugins/lean-explore/.mcp.json`: the HTTP MCP server.
+- **What agents are asked to do:** use the plugin to search for Lean declarations. The Codex manifest's `defaultPrompt` suggests "Find Lean declarations relevant to this proof." and "Search Mathlib for a theorem matching this goal." There are no instructions for agents working on this repo itself.
+- **Build and verification:** none stated.
+- **Proof policy:** none stated.
+- **Lean and Mathlib guidance:** the plugin connects agents to "LeanExplore's public hosted search for Mathlib and other Lean packages", which searches "by name or meaning".
+- **Skills, commands, hooks, MCP:** MCP server `lean-explore` (`"type": "http"`, `https://www.leanexplore.com/mcp`). The Codex manifest says "No account, API key, browser authorization, or local search index is required", although the `.agents` marketplace entry sets `"authentication": "ON_INSTALL"`. There are no skills, commands or hooks.
+- **Permissions and safety:** none stated. The Codex manifest links a privacy policy and terms of service.
+- **Human oversight:** none stated.
+- **Notable ideas:**
+  - Package one hosted Lean search MCP endpoint for both the Claude and Codex plugin marketplaces from a single `plugins/<name>/` folder that shares one `.mcp.json`.
+  - Give Lean-specific starter prompts (`defaultPrompt`) so users see how to use the tool in a proof.
+- **Lean-specificity:** medium. The files are generic plugin and MCP metadata, but the plugin's only purpose is searching Lean 4 and Mathlib declarations.
+- **Evidence:** all five files under `agent_files/` (two marketplace files, two plugin manifests, `.mcp.json`).
