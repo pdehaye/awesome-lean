@@ -7,9 +7,38 @@
  "files": 174,
  "lean_files": 9,
  "agent_kinds": [
-  "mcp"
+  "mcp",
+  "plugins"
  ],
  "agent_files": {
+  ".agents/plugins/marketplace.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 381,
+   "copied": true
+  },
+  ".claude-plugin/marketplace.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 423,
+   "copied": true
+  },
+  "plugins/lean-explore/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 448,
+   "copied": true
+  },
+  "plugins/lean-explore/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1385,
+   "copied": true
+  },
   "plugins/lean-explore/.mcp.json": {
    "kinds": [
     "mcp"

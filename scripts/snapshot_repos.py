@@ -13,7 +13,7 @@ Usage:
 Repositories are cloned shallowly without file contents (--filter=blob:none),
 so even very large repositories are cheap; only the agent files' contents are fetched.
 """
-import argparse, csv, json, os, pathlib, re, shutil, subprocess, sys
+import argparse, csv, json, os, pathlib, posixpath, re, shutil, subprocess, sys
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -38,6 +38,7 @@ AGENT_PATTERNS = {
     "mcp": [r"(^|/)\.mcp\.json$", r"^mcp\.json$", r"(^|/)mcp_config\.json$"],
     "skills": [r"(^|/)SKILL\.md$"],
     "llms_txt": [r"^llms(-full)?\.txt$"],
+    "plugins": [r"(^|/)\.claude-plugin/", r"(^|/)\.codex-plugin/", r"^\.agents/"],
 }
 COMPILED = {k: [re.compile(p) for p in v] for k, v in AGENT_PATTERNS.items()}
 
@@ -79,11 +80,17 @@ def snapshot(row, cache):
         if not kinds:
             continue
         info = {"kinds": kinds}
-        blob = git("cat-file", "-s", f"HEAD:{f}", cwd=clone)
+        source = f
+        entry = git("ls-tree", "HEAD", "--", f, cwd=clone).stdout.split()
+        if entry and entry[0] == "120000":  # symlink: copy the file it points to
+            target = git("cat-file", "-p", f"HEAD:{f}", cwd=clone).stdout.strip()
+            source = posixpath.normpath(posixpath.join(posixpath.dirname(f), target))
+            info["symlink_to"] = source
+        blob = git("cat-file", "-s", f"HEAD:{source}", cwd=clone)
         size = int(blob.stdout.strip()) if blob.returncode == 0 else None
         info["bytes"] = size
         if size is not None and size <= MAX_AGENT_FILE_BYTES:
-            content = subprocess.run(["git", "show", f"HEAD:{f}"], cwd=clone, capture_output=True,
+            content = subprocess.run(["git", "show", f"HEAD:{source}"], cwd=clone, capture_output=True,
                                      timeout=300, env={**os.environ, "GIT_TERMINAL_PROMPT": "0"})
             if content.returncode == 0:
                 target = dest / "agent_files" / f

@@ -15,7 +15,8 @@
    "kinds": [
     "claude"
    ],
-   "bytes": 12,
+   "symlink_to": "AGENTS.md",
+   "bytes": 6349,
    "copied": true
   },
   "AGENTS.md": {

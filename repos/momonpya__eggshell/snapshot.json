@@ -7,9 +7,17 @@
  "files": 158,
  "lean_files": 82,
  "agent_kinds": [
+  "plugins",
   "skills"
  ],
  "agent_files": {
+  "plugins/eggshell/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 2515,
+   "copied": true
+  },
   "plugins/eggshell/skills/eggshell/SKILL.md": {
    "kinds": [
     "skills"

@@ -1,0 +1,84 @@
+{
+  "name": "epistemic-protocols",
+  "description": "A domain-free metalanguage of structured types and morphisms that moves the cognitive load of human-AI collaboration from recall to recognition: unknowns are elicited into utterance and answered or recognized where they bind, before local misalignment hardens into system-wide rework.",
+  "owner": {
+    "name": "jongwony"
+  },
+  "plugins": [
+    {
+      "name": "katalepsis",
+      "source": "./katalepsis",
+      "description": "Check that something in play — code, a document, a result — is actually understood, step by step — /grasp (κατάληψις: a grasping firmly)"
+    },
+    {
+      "name": "aitesis",
+      "source": "./aitesis",
+      "description": "Collect what the AI can reach on its own, hand back the rest as the user's unknown — /inquire (αἴτησις: a requesting)"
+    },
+    {
+      "name": "analogia",
+      "source": "./analogia",
+      "description": "Check what an analogy, framework, or earlier design carried to a case actually supports — /ground (ἀναλογία: a proportion)"
+    },
+    {
+      "name": "periagoge",
+      "source": "./periagoge",
+      "description": "Align concrete cases first, then name what they share — /induce (περιαγωγή: turning-around)"
+    },
+    {
+      "name": "euporia",
+      "source": "./euporia",
+      "description": "Find the decisions a rough intent turns on, traced from your own material and the domain's usual decisions — /elicit (εὐπορία: way through)"
+    },
+    {
+      "name": "merismos",
+      "source": "./merismos",
+      "description": "Apportion an autonomous goal into coarse execution units and derive each unit's completion conditions — /apportion (μερισμός: an apportionment)"
+    },
+    {
+      "name": "epharmoge",
+      "source": "./epharmoge",
+      "description": "Check that a result fits everywhere it lands — misfits and omissions on one sheet — /contextualize (ἐφαρμογή: an application)"
+    },
+    {
+      "name": "horismos",
+      "source": "./horismos",
+      "description": "See what a task needs decided, then choose what to keep or entrust — /bound (ὁρισμός: a bounding)"
+    },
+    {
+      "name": "epistemic-cooperative",
+      "source": "./epistemic-cooperative",
+      "description": "Utility skills layered on top of the core protocols; each utility skill's own SKILL.md carries its contract."
+    },
+    {
+      "name": "anamnesis",
+      "source": "./anamnesis",
+      "description": "Resolve vague recall into recognized context — one session, or a line of work, topic, or settled concept across several — /recollect (ἀνάμνησις: recollection)"
+    },
+    {
+      "name": "hyphegesis",
+      "source": "./hyphegesis",
+      "description": "Settle how work with several lines of thinking runs before starting it — /conduct (ὑφήγησις: a leading-the-way)"
+    },
+    {
+      "name": "proplasma",
+      "source": "./proplasma",
+      "description": "Compare throwaway probes of candidate directions before committing to one — /preview (πρόπλασμα: a preliminary clay model)"
+    },
+    {
+      "name": "hypotyposis",
+      "source": "./hypotyposis",
+      "description": "Discover a form by marking what does not fit on concrete sketches until one is recognized — /sketch (ὑποτύπωσις: an outline, a first sketch)"
+    },
+    {
+      "name": "heuresis",
+      "source": "./heuresis",
+      "description": "Widen an empty or prematurely narrowed field of ideas before choosing — /ideate (εὕρεσις: finding/invention)"
+    },
+    {
+      "name": "route",
+      "source": "./route",
+      "description": "Route the accumulated session context to the core protocol whose deficit it shows — /route (per-prompt hook directive)"
+    }
+  ]
+}

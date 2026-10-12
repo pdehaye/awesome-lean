@@ -7,9 +7,31 @@
  "files": 84,
  "lean_files": 10,
  "agent_kinds": [
+  "plugins",
   "skills"
  ],
  "agent_files": {
+  ".agents/plugins/marketplace.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 447,
+   "copied": true
+  },
+  ".claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 758,
+   "copied": true
+  },
+  ".codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1513,
+   "copied": true
+  },
   "skills/lean-axiom-provenance/SKILL.md": {
    "kinds": [
     "skills"

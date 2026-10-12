@@ -36,7 +36,7 @@ If you change how the CSV is built, change `scripts/repos_csv.py` (not the CSV),
 
 - `tree.txt`: the full file tree at the snapshot commit;
 - `snapshot.json`: commit, commit date, branch, file counts, and the agent configuration files found;
-- `agent_files/`: unmodified copies of those files (up to 200 KB each), which remain under their source repository's license.
+- `agent_files/`: unmodified copies of those files (up to 200 KB each), which remain under their source repository's license. Symlinks (common for skills) are followed: the file is stored at the link's path with the target's content, and `snapshot.json` records `symlink_to`.
 
 `repos/README.md` is the generated index, showing which repositories have an agent setup.
 
@@ -66,6 +66,7 @@ Folders of repositories no longer in `repos.csv` are deleted automatically. Comm
 | `mcp` | `.mcp.json`, `mcp.json`, `mcp_config.json` |
 | `skills` | `SKILL.md` anywhere |
 | `llms_txt` | `llms.txt`, `llms-full.txt` |
+| `plugins` | `.claude-plugin/`, `.codex-plugin/`, `.agents/` |
 
 ## Editing the list
 

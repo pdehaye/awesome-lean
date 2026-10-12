@@ -1,0 +1,35 @@
+{
+  "name": "euporia",
+  "version": "2.7.0",
+  "description": "Find the decisions a rough intent turns on, traced from your own material and the domain's usual decisions — /elicit (εὐπορία: way through)",
+  "author": {
+    "name": "Jongwon Choi",
+    "url": "https://github.com/jongwony"
+  },
+  "homepage": "https://github.com/jongwony/epistemic-protocols",
+  "repository": "https://github.com/jongwony/epistemic-protocols",
+  "license": "MIT",
+  "keywords": [
+    "epistemic-protocols",
+    "skills",
+    "euporia"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Euporia",
+    "shortDescription": "Find the decisions a rough intent turns on, traced from your own material and the domain's usual decisions — /elicit (εὐπορία: way through)",
+    "longDescription": "Find the decisions a rough intent turns on, traced from your own material and the domain's usual decisions — /elicit (εὐπορία: way through)",
+    "developerName": "Jongwon Choi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/jongwony/epistemic-protocols",
+    "defaultPrompt": [
+      "Use euporia for this task"
+    ],
+    "brandColor": "#2563EB"
+  }
+}

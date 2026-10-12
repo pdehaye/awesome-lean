@@ -99,7 +99,8 @@
    "kinds": [
     "agents_md"
    ],
-   "bytes": 17,
+   "symlink_to": ".claude/CLAUDE.md",
+   "bytes": 8466,
    "copied": true
   }
  }

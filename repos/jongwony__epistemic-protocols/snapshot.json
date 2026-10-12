@@ -9,9 +9,24 @@
  "agent_kinds": [
   "agents_md",
   "claude",
+  "plugins",
   "skills"
  ],
  "agent_files": {
+  ".agents/plugins/marketplace.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 4026,
+   "copied": true
+  },
+  ".claude-plugin/marketplace.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 3820,
+   "copied": true
+  },
   ".claude/hooks/README.md": {
    "kinds": [
     "claude"
@@ -52,7 +67,8 @@
    "kinds": [
     "claude"
    ],
-   "bytes": 9,
+   "symlink_to": ".claude/principles/AGENTS.md",
+   "bytes": 3648,
    "copied": true
   },
   ".claude/principles/architectural-principles.md": {
@@ -1011,7 +1027,22 @@
    "kinds": [
     "claude"
    ],
-   "bytes": 9,
+   "symlink_to": "AGENTS.md",
+   "bytes": 18765,
+   "copied": true
+  },
+  "aitesis/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 282,
+   "copied": true
+  },
+  "aitesis/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1204,
    "copied": true
   },
   "aitesis/AGENTS.md": {
@@ -1028,6 +1059,20 @@
    "bytes": 30947,
    "copied": true
   },
+  "analogia/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 289,
+   "copied": true
+  },
+  "analogia/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1226,
+   "copied": true
+  },
   "analogia/AGENTS.md": {
    "kinds": [
     "agents_md"
@@ -1040,6 +1085,20 @@
     "skills"
    ],
    "bytes": 46295,
+   "copied": true
+  },
+  "anamnesis/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 331,
+   "copied": true
+  },
+  "anamnesis/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1200,
    "copied": true
   },
   "anamnesis/AGENTS.md": {
@@ -1070,6 +1129,20 @@
    "bytes": 711,
    "copied": true
   },
+  "epharmoge/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 295,
+   "copied": true
+  },
+  "epharmoge/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1245,
+   "copied": true
+  },
   "epharmoge/AGENTS.md": {
    "kinds": [
     "agents_md"
@@ -1082,6 +1155,20 @@
     "skills"
    ],
    "bytes": 34850,
+   "copied": true
+  },
+  "epistemic-cooperative/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 277,
+   "copied": true
+  },
+  "epistemic-cooperative/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1203,
    "copied": true
   },
   "epistemic-cooperative/AGENTS.md": {
@@ -1140,6 +1227,20 @@
    "bytes": 6725,
    "copied": true
   },
+  "euporia/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 304,
+   "copied": true
+  },
+  "euporia/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1270,
+   "copied": true
+  },
   "euporia/AGENTS.md": {
    "kinds": [
     "agents_md"
@@ -1152,6 +1253,20 @@
     "skills"
    ],
    "bytes": 24345,
+   "copied": true
+  },
+  "heuresis/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 274,
+   "copied": true
+  },
+  "heuresis/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1181,
    "copied": true
   },
   "heuresis/AGENTS.md": {
@@ -1168,6 +1283,20 @@
    "bytes": 33686,
    "copied": true
   },
+  "horismos/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 263,
+   "copied": true
+  },
+  "horismos/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1148,
+   "copied": true
+  },
   "horismos/AGENTS.md": {
    "kinds": [
     "agents_md"
@@ -1180,6 +1309,20 @@
     "skills"
    ],
    "bytes": 48610,
+   "copied": true
+  },
+  "hyphegesis/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 280,
+   "copied": true
+  },
+  "hyphegesis/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1201,
    "copied": true
   },
   "hyphegesis/AGENTS.md": {
@@ -1196,6 +1339,20 @@
    "bytes": 39633,
    "copied": true
   },
+  "hypotyposis/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 312,
+   "copied": true
+  },
+  "hypotyposis/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1298,
+   "copied": true
+  },
   "hypotyposis/AGENTS.md": {
    "kinds": [
     "agents_md"
@@ -1208,6 +1365,20 @@
     "skills"
    ],
    "bytes": 43086,
+   "copied": true
+  },
+  "katalepsis/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 309,
+   "copied": true
+  },
+  "katalepsis/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1288,
    "copied": true
   },
   "katalepsis/AGENTS.md": {
@@ -1231,6 +1402,20 @@
    "bytes": 1084,
    "copied": true
   },
+  "merismos/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 309,
+   "copied": true
+  },
+  "merismos/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1286,
+   "copied": true
+  },
   "merismos/AGENTS.md": {
    "kinds": [
     "agents_md"
@@ -1243,6 +1428,20 @@
     "skills"
    ],
    "bytes": 75170,
+   "copied": true
+  },
+  "periagoge/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 259,
+   "copied": true
+  },
+  "periagoge/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1137,
    "copied": true
   },
   "periagoge/AGENTS.md": {
@@ -1259,6 +1458,20 @@
    "bytes": 32007,
    "copied": true
   },
+  "proplasma/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 290,
+   "copied": true
+  },
+  "proplasma/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1230,
+   "copied": true
+  },
   "proplasma/AGENTS.md": {
    "kinds": [
     "agents_md"
@@ -1271,6 +1484,20 @@
     "skills"
    ],
    "bytes": 36885,
+   "copied": true
+  },
+  "route/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 288,
+   "copied": true
+  },
+  "route/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1177,
    "copied": true
   },
   "route/AGENTS.md": {

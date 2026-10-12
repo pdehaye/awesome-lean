@@ -16,7 +16,8 @@
     "claude",
     "skills"
    ],
-   "bytes": 65,
+   "symlink_to": "documentation/skills/aeneas-compiler-dev.instructions.md",
+   "bytes": 11027,
    "copied": true
   },
   ".claude/skills/aeneas-crypto-verification/SKILL.md": {
@@ -24,7 +25,8 @@
     "claude",
     "skills"
    ],
-   "bytes": 72,
+   "symlink_to": "documentation/skills/aeneas-crypto-verification.instructions.md",
+   "bytes": 14544,
    "copied": true
   },
   ".claude/skills/aeneas-lean-core/SKILL.md": {
@@ -32,7 +34,8 @@
     "claude",
     "skills"
    ],
-   "bytes": 62,
+   "symlink_to": "documentation/skills/aeneas-lean-core.instructions.md",
+   "bytes": 47928,
    "copied": true
   },
   ".claude/skills/aeneas-tactics-quickref/SKILL.md": {
@@ -40,7 +43,8 @@
     "claude",
     "skills"
    ],
-   "bytes": 69,
+   "symlink_to": "documentation/skills/aeneas-tactics-quickref.instructions.md",
+   "bytes": 23902,
    "copied": true
   },
   ".claude/skills/agent-fleet-management/SKILL.md": {
@@ -48,7 +52,8 @@
     "claude",
     "skills"
    ],
-   "bytes": 68,
+   "symlink_to": "documentation/skills/agent-fleet-management.instructions.md",
+   "bytes": 19544,
    "copied": true
   },
   ".claude/skills/formalizing-crypto-specs/SKILL.md": {
@@ -56,7 +61,8 @@
     "claude",
     "skills"
    ],
-   "bytes": 70,
+   "symlink_to": "documentation/skills/formalizing-crypto-specs.instructions.md",
+   "bytes": 50035,
    "copied": true
   },
   ".claude/skills/launching-proof-agents/SKILL.md": {
@@ -64,7 +70,8 @@
     "claude",
     "skills"
    ],
-   "bytes": 68,
+   "symlink_to": "documentation/skills/launching-proof-agents.instructions.md",
+   "bytes": 79227,
    "copied": true
   },
   ".claude/skills/lean-lsp-mcp/SKILL.md": {
@@ -72,7 +79,8 @@
     "claude",
     "skills"
    ],
-   "bytes": 58,
+   "symlink_to": "documentation/skills/lean-lsp-mcp.instructions.md",
+   "bytes": 16152,
    "copied": true
   },
   ".claude/skills/proof-patterns/SKILL.md": {
@@ -80,7 +88,8 @@
     "claude",
     "skills"
    ],
-   "bytes": 60,
+   "symlink_to": "documentation/skills/proof-patterns.instructions.md",
+   "bytes": 5330,
    "copied": true
   },
   ".claude/skills/skill-file-authoring/SKILL.md": {
@@ -88,7 +97,8 @@
     "claude",
     "skills"
    ],
-   "bytes": 66,
+   "symlink_to": "documentation/skills/skill-file-authoring.instructions.md",
+   "bytes": 6535,
    "copied": true
   },
   ".claude/skills/verification-campaigns/SKILL.md": {
@@ -96,84 +106,96 @@
     "claude",
     "skills"
    ],
-   "bytes": 68,
+   "symlink_to": "documentation/skills/verification-campaigns.instructions.md",
+   "bytes": 4084,
    "copied": true
   },
   ".github/skills/aeneas-compiler-dev/SKILL.md": {
    "kinds": [
     "skills"
    ],
-   "bytes": 65,
+   "symlink_to": "documentation/skills/aeneas-compiler-dev.instructions.md",
+   "bytes": 11027,
    "copied": true
   },
   ".github/skills/aeneas-crypto-verification/SKILL.md": {
    "kinds": [
     "skills"
    ],
-   "bytes": 72,
+   "symlink_to": "documentation/skills/aeneas-crypto-verification.instructions.md",
+   "bytes": 14544,
    "copied": true
   },
   ".github/skills/aeneas-lean-core/SKILL.md": {
    "kinds": [
     "skills"
    ],
-   "bytes": 62,
+   "symlink_to": "documentation/skills/aeneas-lean-core.instructions.md",
+   "bytes": 47928,
    "copied": true
   },
   ".github/skills/aeneas-tactics-quickref/SKILL.md": {
    "kinds": [
     "skills"
    ],
-   "bytes": 69,
+   "symlink_to": "documentation/skills/aeneas-tactics-quickref.instructions.md",
+   "bytes": 23902,
    "copied": true
   },
   ".github/skills/agent-fleet-management/SKILL.md": {
    "kinds": [
     "skills"
    ],
-   "bytes": 68,
+   "symlink_to": "documentation/skills/agent-fleet-management.instructions.md",
+   "bytes": 19544,
    "copied": true
   },
   ".github/skills/formalizing-crypto-specs/SKILL.md": {
    "kinds": [
     "skills"
    ],
-   "bytes": 70,
+   "symlink_to": "documentation/skills/formalizing-crypto-specs.instructions.md",
+   "bytes": 50035,
    "copied": true
   },
   ".github/skills/launching-proof-agents/SKILL.md": {
    "kinds": [
     "skills"
    ],
-   "bytes": 68,
+   "symlink_to": "documentation/skills/launching-proof-agents.instructions.md",
+   "bytes": 79227,
    "copied": true
   },
   ".github/skills/lean-lsp-mcp/SKILL.md": {
    "kinds": [
     "skills"
    ],
-   "bytes": 58,
+   "symlink_to": "documentation/skills/lean-lsp-mcp.instructions.md",
+   "bytes": 16152,
    "copied": true
   },
   ".github/skills/proof-patterns/SKILL.md": {
    "kinds": [
     "skills"
    ],
-   "bytes": 60,
+   "symlink_to": "documentation/skills/proof-patterns.instructions.md",
+   "bytes": 5330,
    "copied": true
   },
   ".github/skills/skill-file-authoring/SKILL.md": {
    "kinds": [
     "skills"
    ],
-   "bytes": 66,
+   "symlink_to": "documentation/skills/skill-file-authoring.instructions.md",
+   "bytes": 6535,
    "copied": true
   },
   ".github/skills/verification-campaigns/SKILL.md": {
    "kinds": [
     "skills"
    ],
-   "bytes": 68,
+   "symlink_to": "documentation/skills/verification-campaigns.instructions.md",
+   "bytes": 4084,
    "copied": true
   },
   "CLAUDE.md": {
