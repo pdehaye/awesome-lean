@@ -1,0 +1,23 @@
+# leanprover/lean4: agent setup
+
+- **Snapshot:** commit `db7f10e` (2026-10-12), from `repos/leanprover__lean4/snapshot.json`.
+- **Tools targeted:** Claude Code (`.claude/`). `AGENTS.md` contains only the path `.claude/CLAUDE.md` (it looks like a symlink stored as text), so `AGENTS.md` readers get the same file.
+- **Files:** `.claude/CLAUDE.md` (main guide: build, tests, conventions, PRs); `.claude/settings.json` (enables the `lean@leanprover` plugin from the `leanprover/skills` marketplace); `.claude/commands/release.md` (release runbook); six skills under `.claude/skills/`; `.claude/.gitignore` (ignores `*.lock`, "used for e.g. scheduled wakeups"); `AGENTS.md` (pointer).
+- **What agents are asked to do:** compiler and library development (feature work is test-first: "write comprehensive tests first"), writing PRs, cross-repo releases, release-note highlights, CI triage, profiling, reading Zulip threads.
+- **Build and verification:** `make -j$(nproc) -C build/release`; tests through `make -C build/release test` with ctest (`ARGS="-R '…'"`, `--rerun-failed`). "*Never* report success … unless you have verified both a clean build without errors, and that the relevant tests pass." Trust command-line results over stale LSP diagnostics. Stage2 builds are only for olean-persisted changes.
+- **Proof policy:** none stated.
+- **Lean and Mathlib guidance:** files in `src/Lean/`, `src/Std/` and `src/lake/Lake/` need `module` + `prelude` and explicit `Init.*` imports; test files need a `/-! … -/` module docstring; copyright headers use the year from `date +%Y`; "Never manually edit files under `stage0/`"; benchmarks scale with `TEST_BENCH`. The release runbook covers Verso release notes and Mathlib bump branches on `mathlib4-nightly-testing`.
+- **Skills, commands, hooks, MCP:**
+  - `/release`: drives `script/release_checklist.py` / `release_steps.py` across downstream repos.
+  - `ci-log-retrieval`: fetch failing job logs with `gh run view`.
+  - `profiling`: samply plus Lean name demangling.
+  - `release-highlights`: write release-note Highlights after reading every PR.
+  - `stage2-build`: build and test against stage2.
+  - `stage2-olean-test`: spot spurious stage1 failures caused by olean changes.
+  - `zulip-extract`: stdlib-only HTML-to-text script.
+  - No hooks or MCP config; one external plugin is enabled.
+- **Permissions and safety:** "NEVER manually delete build directories"; ask before cleanup and before stage2 builds; never force-push remote refs without confirmation; never change a PR's `--base` unless told to; during releases, run `release_steps.py` only when the checklist says so, and don't fix failures manually. Skills declare `allowed-tools`.
+- **Human oversight:** "NEVER merge PRs autonomously"; PR body starts with "This PR" (it feeds the release notes), carries `changelog-*` labels and no "process narrative". If the user is frustrated, ask them to help update CLAUDE.md. The highlights skill discounts AI-generated PR descriptions as a signal of importance.
+- **Notable ideas:** a success criterion that requires both build and tests; a "frustration → update CLAUDE.md" feedback loop; mechanized coverage checks (count the PRs, then confirm all were read).
+- **Lean-specificity:** high. Most rules concern Lean's bootstrapping stages, oleans, the module system and the release ecosystem.
+- **Evidence:** all files listed above, including the first lines of `zulip_thread_extract.py`.
