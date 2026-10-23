@@ -1,0 +1,11 @@
+{
+ "repo": "cmu-l3/llmlean",
+ "url": "https://github.com/cmu-l3/llmlean",
+ "branch": "main",
+ "commit": "7ec2df26c124a9c4c4c602a7956bff6997e39602",
+ "commit_date": "2025-10-10T15:26:48-04:00",
+ "files": 36,
+ "lean_files": 16,
+ "agent_kinds": [],
+ "agent_files": {}
+}

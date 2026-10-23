@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/axiom-audit",
+ "url": "https://github.com/leanprover-community/axiom-audit",
+ "branch": "main",
+ "commit": "0b885d88a69982cd76990b502742690b80b1a685",
+ "commit_date": "2026-10-02T16:50:56+10:00",
+ "files": 9,
+ "lean_files": 2,
+ "agent_kinds": [],
+ "agent_files": {}
+}

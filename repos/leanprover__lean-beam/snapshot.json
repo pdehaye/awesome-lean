@@ -1,0 +1,37 @@
+{
+ "repo": "leanprover/lean-beam",
+ "url": "https://github.com/leanprover/lean-beam",
+ "branch": "main",
+ "commit": "ef8ba52309920c1cdbb30903fc0f8ef0d1f670b2",
+ "commit_date": "2026-10-22T20:58:44+02:00",
+ "files": 440,
+ "lean_files": 265,
+ "agent_kinds": [
+  "agents_md",
+  "claude",
+  "skills"
+ ],
+ "agent_files": {
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 8528,
+   "copied_to": "agent_files/AGENTS.md.txt"
+  },
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 41,
+   "copied_to": "agent_files/CLAUDE.md.txt"
+  },
+  "skills/lean-beam/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 9784,
+   "copied_to": "agent_files/skills/lean-beam/SKILL.md.txt"
+  }
+ }
+}

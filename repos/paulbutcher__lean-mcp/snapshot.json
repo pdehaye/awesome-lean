@@ -1,0 +1,21 @@
+{
+ "repo": "paulbutcher/lean-mcp",
+ "url": "https://github.com/paulbutcher/lean-mcp",
+ "branch": "main",
+ "commit": "a5e662a02722f5a14df71292725521b12c7fadc2",
+ "commit_date": "2026-10-20T17:33:39+01:00",
+ "files": 35,
+ "lean_files": 21,
+ "agent_kinds": [
+  "claude"
+ ],
+ "agent_files": {
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 8254,
+   "copied_to": "agent_files/CLAUDE.md.txt"
+  }
+ }
+}

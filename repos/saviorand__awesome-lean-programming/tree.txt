@@ -1,0 +1,5 @@
+.gitattributes
+code-of-conduct.md
+contributing.md
+license
+readme.md

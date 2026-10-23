@@ -1,0 +1,21 @@
+{
+ "repo": "JacobAsmuth/qed",
+ "url": "https://github.com/JacobAsmuth/qed",
+ "branch": "main",
+ "commit": "e3a0a92adf2187b894a99ff96698bf1ea3c6622e",
+ "commit_date": "2026-09-22T23:00:21-07:00",
+ "files": 120,
+ "lean_files": 71,
+ "agent_kinds": [
+  "claude"
+ ],
+ "agent_files": {
+  ".claude/settings.json": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 520,
+   "copied_to": "agent_files/.claude/settings.json.txt"
+  }
+ }
+}

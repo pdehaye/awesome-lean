@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/subverso",
+ "url": "https://github.com/leanprover/subverso",
+ "branch": "main",
+ "commit": "892d6dc520270b5fb8c1291dd1b131e8c16255ed",
+ "commit_date": "2026-10-02T13:49:43+00:00",
+ "files": 57,
+ "lean_files": 39,
+ "agent_kinds": [],
+ "agent_files": {}
+}

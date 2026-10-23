@@ -1,0 +1,38 @@
+{
+ "repo": "leanprover/human-eval-lean",
+ "url": "https://github.com/leanprover/human-eval-lean",
+ "branch": "master",
+ "commit": "ebb161b8692fdf5059424f73d9d7389f389dd1a6",
+ "commit_date": "2026-03-27T15:41:18+01:00",
+ "files": 181,
+ "lean_files": 169,
+ "agent_kinds": [
+  "claude",
+  "skills"
+ ],
+ "agent_files": {
+  ".claude/skills/code-review/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 10368,
+   "copied_to": "agent_files/.claude/skills/code-review/SKILL.md.txt"
+  },
+  ".claude/skills/restructure-solutions/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 3502,
+   "copied_to": "agent_files/.claude/skills/restructure-solutions/SKILL.md.txt"
+  },
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 5827,
+   "copied_to": "agent_files/CLAUDE.md.txt"
+  }
+ }
+}

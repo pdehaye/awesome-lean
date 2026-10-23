@@ -1,0 +1,15 @@
+.github/workflows/lean_action_ci.yml
+.gitignore
+LICENSE
+LeanSearchClient.lean
+LeanSearchClient/Basic.lean
+LeanSearchClient/LoogleSyntax.lean
+LeanSearchClient/Syntax.lean
+LeanSearchClientTest.lean
+LeanSearchClientTest/Examples.lean
+LeanSearchClientTest/LoogleExamples.lean
+LeanSearchClientTest/StateSearchExamples.lean
+README.md
+lake-manifest.json
+lakefile.toml
+lean-toolchain

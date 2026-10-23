@@ -1,0 +1,11 @@
+{
+ "repo": "argumentcomputer/LSpec",
+ "url": "https://github.com/argumentcomputer/LSpec",
+ "branch": "main",
+ "commit": "d8eb3e0d9a8e33fc116e6700df0418a1d8114508",
+ "commit_date": "2026-10-01T15:01:00-03:00",
+ "files": 27,
+ "lean_files": 13,
+ "agent_kinds": [],
+ "agent_files": {}
+}

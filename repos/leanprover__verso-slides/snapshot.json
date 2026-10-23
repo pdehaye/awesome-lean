@@ -1,0 +1,21 @@
+{
+ "repo": "leanprover/verso-slides",
+ "url": "https://github.com/leanprover/verso-slides",
+ "branch": "main",
+ "commit": "2d8e2ccef9876efe8194a6818b46b64f37da515f",
+ "commit_date": "2026-10-14T19:49:22-04:00",
+ "files": 261,
+ "lean_files": 40,
+ "agent_kinds": [
+  "claude"
+ ],
+ "agent_files": {
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 1170,
+   "copied_to": "agent_files/CLAUDE.md.txt"
+  }
+ }
+}

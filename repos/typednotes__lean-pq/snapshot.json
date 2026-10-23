@@ -1,0 +1,21 @@
+{
+ "repo": "typednotes/lean-pq",
+ "url": "https://github.com/typednotes/lean-pq",
+ "branch": "main",
+ "commit": "10078db9e5f4885996dabb149baf245beb76ec4e",
+ "commit_date": "2026-10-01T17:54:50+02:00",
+ "files": 34,
+ "lean_files": 17,
+ "agent_kinds": [
+  "claude"
+ ],
+ "agent_files": {
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2721,
+   "copied_to": "agent_files/CLAUDE.md.txt"
+  }
+ }
+}

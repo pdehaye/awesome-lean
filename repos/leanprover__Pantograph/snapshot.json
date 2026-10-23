@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/Pantograph",
+ "url": "https://github.com/leanprover/Pantograph",
+ "branch": "dev",
+ "commit": "0789692d65e365c027d171074bf747f1d40328d0",
+ "commit_date": "2026-10-20T11:46:26-07:00",
+ "files": 53,
+ "lean_files": 41,
+ "agent_kinds": [],
+ "agent_files": {}
+}

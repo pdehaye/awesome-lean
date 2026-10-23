@@ -1,0 +1,30 @@
+{
+ "repo": "leanprover/con-leche",
+ "url": "https://github.com/leanprover/con-leche",
+ "branch": "master",
+ "commit": "ae1f31983ecd085c6140d0f8d433f23ee7eab72b",
+ "commit_date": "2026-10-21T18:19:50+00:00",
+ "files": 1582,
+ "lean_files": 918,
+ "agent_kinds": [
+  "claude",
+  "skills"
+ ],
+ "agent_files": {
+  ".claude/skills/lean-rc-linearity/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 17454,
+   "copied_to": "agent_files/.claude/skills/lean-rc-linearity/SKILL.md.txt"
+  },
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 11018,
+   "copied_to": "agent_files/CLAUDE.md.txt"
+  }
+ }
+}
