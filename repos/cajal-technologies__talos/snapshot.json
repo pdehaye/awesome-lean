@@ -1,0 +1,83 @@
+{
+ "repo": "cajal-technologies/talos",
+ "url": "https://github.com/cajal-technologies/talos",
+ "branch": "main",
+ "commit": "80644390de3ad4db3055445259a034413ae41577",
+ "commit_date": "2026-10-06T14:30:48+02:00",
+ "files": 656,
+ "lean_files": 410,
+ "agent_kinds": [
+  "agents_md",
+  "claude",
+  "codex",
+  "plugins",
+  "skills"
+ ],
+ "agent_files": {
+  ".agents/skills/lean-lsp-mcp/SKILL.md": {
+   "kinds": [
+    "skills",
+    "plugins"
+   ],
+   "bytes": 16150,
+   "copied_to": "agent_files/.agents/skills/lean-lsp-mcp/SKILL.md.txt"
+  },
+  ".claude/settings.json": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 262,
+   "copied_to": "agent_files/.claude/settings.json.txt"
+  },
+  ".claude/skills/lean-lsp-mcp/SKILL.md": {
+   "kinds": [
+    "claude",
+    "skills"
+   ],
+   "bytes": 16152,
+   "copied_to": "agent_files/.claude/skills/lean-lsp-mcp/SKILL.md.txt"
+  },
+  ".claude/worktree-init.sh": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3254,
+   "copied_to": "agent_files/.claude/worktree-init.sh.txt"
+  },
+  ".codex/config.toml": {
+   "kinds": [
+    "codex"
+   ],
+   "bytes": 63,
+   "copied_to": "agent_files/.codex/config.toml.txt"
+  },
+  ".codex/environments/environment.toml": {
+   "kinds": [
+    "codex"
+   ],
+   "bytes": 323,
+   "copied_to": "agent_files/.codex/environments/environment.toml.txt"
+  },
+  ".codex/hooks.json": {
+   "kinds": [
+    "codex"
+   ],
+   "bytes": 262,
+   "copied_to": "agent_files/.codex/hooks.json.txt"
+  },
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 13510,
+   "copied_to": "agent_files/AGENTS.md.txt"
+  },
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 8992,
+   "copied_to": "agent_files/CLAUDE.md.txt"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/sos",
+ "url": "https://github.com/leanprover/sos",
+ "branch": "main",
+ "commit": "fb7ae417609093f04cf0608dc92e9343550c2ae4",
+ "commit_date": "2026-08-27T01:48:22+10:00",
+ "files": 73,
+ "lean_files": 54,
+ "agent_kinds": [],
+ "agent_files": {}
+}

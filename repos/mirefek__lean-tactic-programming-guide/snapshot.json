@@ -1,0 +1,11 @@
+{
+ "repo": "mirefek/lean-tactic-programming-guide",
+ "url": "https://github.com/mirefek/lean-tactic-programming-guide",
+ "branch": "main",
+ "commit": "a6c1b880df9fb938619832f5a043966bcb8c636c",
+ "commit_date": "2026-04-24T23:31:38+02:00",
+ "files": 11,
+ "lean_files": 4,
+ "agent_kinds": [],
+ "agent_files": {}
+}

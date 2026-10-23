@@ -1,0 +1,21 @@
+{
+ "repo": "FawadHa1der/QED64",
+ "url": "https://github.com/FawadHa1der/QED64",
+ "branch": "main",
+ "commit": "73d7f3b363b49909d6d1ac0fade8885b0312dc6c",
+ "commit_date": "2026-10-19T11:08:36-04:00",
+ "files": 261,
+ "lean_files": 4,
+ "agent_kinds": [
+  "claude"
+ ],
+ "agent_files": {
+  ".claude/launch.json": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 205,
+   "copied_to": "agent_files/.claude/launch.json.txt"
+  }
+ }
+}

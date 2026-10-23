@@ -1,0 +1,38 @@
+{
+ "repo": "Verified-zkEVM/clean",
+ "url": "https://github.com/Verified-zkEVM/clean",
+ "branch": "main",
+ "commit": "1a6c28426372bb99af79e533aa7b9a0788eff0d7",
+ "commit_date": "2026-10-13T22:32:37+02:00",
+ "files": 261,
+ "lean_files": 194,
+ "agent_kinds": [
+  "agents_md",
+  "claude",
+  "skills"
+ ],
+ "agent_files": {
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 14513,
+   "copied_to": "agent_files/AGENTS.md.txt"
+  },
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "symlink_to": "AGENTS.md",
+   "bytes": 14513,
+   "copied_to": "agent_files/CLAUDE.md.txt"
+  },
+  "skills/lean-mcp/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 3676,
+   "copied_to": "agent_files/skills/lean-mcp/SKILL.md.txt"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/LeanProject",
+ "url": "https://github.com/leanprover-community/LeanProject",
+ "branch": "main",
+ "commit": "4039a14b998f1a89d47ff36456bdb7176179677b",
+ "commit_date": "2026-10-19T20:37:00+01:00",
+ "files": 25,
+ "lean_files": 2,
+ "agent_kinds": [],
+ "agent_files": {}
+}

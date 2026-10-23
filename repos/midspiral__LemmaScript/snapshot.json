@@ -1,0 +1,29 @@
+{
+ "repo": "midspiral/LemmaScript",
+ "url": "https://github.com/midspiral/LemmaScript",
+ "branch": "main",
+ "commit": "ffc07fcf1e6826b57fad0dde6e8bc2bbfb960ab5",
+ "commit_date": "2026-10-16T16:22:29-04:00",
+ "files": 445,
+ "lean_files": 94,
+ "agent_kinds": [
+  "agents_md",
+  "mcp"
+ ],
+ "agent_files": {
+  ".mcp.json": {
+   "kinds": [
+    "mcp"
+   ],
+   "bytes": 160,
+   "copied_to": "agent_files/.mcp.json.txt"
+  },
+  "AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 14739,
+   "copied_to": "agent_files/AGENTS.md.txt"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+.gitignore
+CustomRw.lean
+CustomSimp.lean
+LICENSE
+README.md
+TacticProgrammingGuide.lean
+TutorialAux/Init.lean
+build_content.py
+lake-manifest.json
+lakefile.toml
+lean-toolchain

@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/hopscotch",
+ "url": "https://github.com/leanprover-community/hopscotch",
+ "branch": "main",
+ "commit": "c7e5fa238f0c2a14b68bd99b75c6120bb2933d31",
+ "commit_date": "2026-10-02T09:28:06-03:00",
+ "files": 52,
+ "lean_files": 40,
+ "agent_kinds": [],
+ "agent_files": {}
+}

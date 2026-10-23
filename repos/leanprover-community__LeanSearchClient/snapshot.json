@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover-community/LeanSearchClient",
+ "url": "https://github.com/leanprover-community/LeanSearchClient",
+ "branch": "main",
+ "commit": "9d39f9bb0c30aa2f6200808805ff16e6ce950890",
+ "commit_date": "2026-10-14T20:45:30+02:00",
+ "files": 15,
+ "lean_files": 8,
+ "agent_kinds": [],
+ "agent_files": {}
+}

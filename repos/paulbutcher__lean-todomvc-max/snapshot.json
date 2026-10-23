@@ -1,0 +1,21 @@
+{
+ "repo": "paulbutcher/lean-todomvc-max",
+ "url": "https://github.com/paulbutcher/lean-todomvc-max",
+ "branch": "main",
+ "commit": "b872c138374d8de1d5d8d095d1cdcc8b3a58df0f",
+ "commit_date": "2026-10-22T16:18:48+01:00",
+ "files": 87,
+ "lean_files": 40,
+ "agent_kinds": [
+  "claude"
+ ],
+ "agent_files": {
+  "CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 8254,
+   "copied_to": "agent_files/CLAUDE.md.txt"
+  }
+ }
+}

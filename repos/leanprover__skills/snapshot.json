@@ -1,0 +1,100 @@
+{
+ "repo": "leanprover/skills",
+ "url": "https://github.com/leanprover/skills",
+ "branch": "main",
+ "commit": "7d3da0282e7b724b07620e45cf212f2e05e19334",
+ "commit_date": "2026-02-21T10:03:24+00:00",
+ "files": 19,
+ "lean_files": 0,
+ "agent_kinds": [
+  "claude",
+  "plugins",
+  "skills"
+ ],
+ "agent_files": {
+  ".claude-plugin/marketplace.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 206,
+   "copied_to": "agent_files/.claude-plugin/marketplace.json.txt"
+  },
+  ".claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 439,
+   "copied_to": "agent_files/.claude-plugin/plugin.json.txt"
+  },
+  ".claude/CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 2019,
+   "copied_to": "agent_files/.claude/CLAUDE.md.txt"
+  },
+  "skills/lean-bisect/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 2127,
+   "copied_to": "agent_files/skills/lean-bisect/SKILL.md.txt"
+  },
+  "skills/lean-mwe/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 2242,
+   "copied_to": "agent_files/skills/lean-mwe/SKILL.md.txt"
+  },
+  "skills/lean-pr/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 2512,
+   "copied_to": "agent_files/skills/lean-pr/SKILL.md.txt"
+  },
+  "skills/lean-proof/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 3053,
+   "copied_to": "agent_files/skills/lean-proof/SKILL.md.txt"
+  },
+  "skills/lean-setup/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 1886,
+   "copied_to": "agent_files/skills/lean-setup/SKILL.md.txt"
+  },
+  "skills/mathlib-build/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 645,
+   "copied_to": "agent_files/skills/mathlib-build/SKILL.md.txt"
+  },
+  "skills/mathlib-pr/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 2309,
+   "copied_to": "agent_files/skills/mathlib-pr/SKILL.md.txt"
+  },
+  "skills/mathlib-review/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 1495,
+   "copied_to": "agent_files/skills/mathlib-review/SKILL.md.txt"
+  },
+  "skills/nightly-testing/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 1918,
+   "copied_to": "agent_files/skills/nightly-testing/SKILL.md.txt"
+  }
+ }
+}

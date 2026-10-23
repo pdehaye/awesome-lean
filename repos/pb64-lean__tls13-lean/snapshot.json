@@ -1,0 +1,11 @@
+{
+ "repo": "pb64-lean/tls13-lean",
+ "url": "https://github.com/pb64-lean/tls13-lean",
+ "branch": "main",
+ "commit": "0c61f21f3f0e46aa8789cd10f4e03871d1c002db",
+ "commit_date": "2026-09-09T18:20:03-04:00",
+ "files": 100,
+ "lean_files": 43,
+ "agent_kinds": [],
+ "agent_files": {}
+}

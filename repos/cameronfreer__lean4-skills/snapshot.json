@@ -1,0 +1,57 @@
+{
+ "repo": "cameronfreer/lean4-skills",
+ "url": "https://github.com/cameronfreer/lean4-skills",
+ "branch": "main",
+ "commit": "83582df9d9172456993929f32ac4dd9d99c6211c",
+ "commit_date": "2026-10-20T16:44:26-04:00",
+ "files": 306,
+ "lean_files": 66,
+ "agent_kinds": [
+  "plugins",
+  "skills"
+ ],
+ "agent_files": {
+  ".agents/plugins/marketplace.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 359,
+   "copied_to": "agent_files/.agents/plugins/marketplace.json.txt"
+  },
+  ".claude-plugin/marketplace.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 864,
+   "copied_to": "agent_files/.claude-plugin/marketplace.json.txt"
+  },
+  "plugins/lean4-contribute/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 336,
+   "copied_to": "agent_files/plugins/lean4-contribute/.claude-plugin/plugin.json.txt"
+  },
+  "plugins/lean4/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 308,
+   "copied_to": "agent_files/plugins/lean4/.claude-plugin/plugin.json.txt"
+  },
+  "plugins/lean4/.codex-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 1397,
+   "copied_to": "agent_files/plugins/lean4/.codex-plugin/plugin.json.txt"
+  },
+  "plugins/lean4/skills/lean4/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 32353,
+   "copied_to": "agent_files/plugins/lean4/skills/lean4/SKILL.md.txt"
+  }
+ }
+}

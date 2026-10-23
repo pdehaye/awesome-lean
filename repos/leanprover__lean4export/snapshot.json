@@ -1,0 +1,11 @@
+{
+ "repo": "leanprover/lean4export",
+ "url": "https://github.com/leanprover/lean4export",
+ "branch": "master",
+ "commit": "df81913eee5519d5a88ae5b0fd701b5298cc29ab",
+ "commit_date": "2026-10-14T20:45:54+02:00",
+ "files": 13,
+ "lean_files": 4,
+ "agent_kinds": [],
+ "agent_files": {}
+}

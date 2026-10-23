@@ -1,0 +1,31 @@
+{
+ "repo": "lean-ja/lean-by-example",
+ "url": "https://github.com/lean-ja/lean-by-example",
+ "branch": "main",
+ "commit": "7e539a205f0632a161b7295b14b4136fa01edaea",
+ "commit_date": "2026-09-15T21:53:58+09:00",
+ "files": 473,
+ "lean_files": 409,
+ "agent_kinds": [
+  "plugins",
+  "skills"
+ ],
+ "agent_files": {
+  ".agents/skills/article-editing/SKILL.md": {
+   "kinds": [
+    "skills",
+    "plugins"
+   ],
+   "bytes": 2346,
+   "copied_to": "agent_files/.agents/skills/article-editing/SKILL.md.txt"
+  },
+  ".agents/skills/style-check/SKILL.md": {
+   "kinds": [
+    "skills",
+    "plugins"
+   ],
+   "bytes": 978,
+   "copied_to": "agent_files/.agents/skills/style-check/SKILL.md.txt"
+  }
+ }
+}

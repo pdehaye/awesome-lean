@@ -1,0 +1,28 @@
+{
+ "repo": "kim-em/lean-zip",
+ "url": "https://github.com/kim-em/lean-zip",
+ "branch": "master",
+ "commit": "2f7a63f38195bc667a926881b55d10c9f8a88eeb",
+ "commit_date": "2026-09-23T14:24:56+10:00",
+ "files": 138,
+ "lean_files": 114,
+ "agent_kinds": [
+  "claude"
+ ],
+ "agent_files": {
+  ".claude/CLAUDE.md": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 3386,
+   "copied_to": "agent_files/.claude/CLAUDE.md.txt"
+  },
+  ".claude/settings.json": {
+   "kinds": [
+    "claude"
+   ],
+   "bytes": 209,
+   "copied_to": "agent_files/.claude/settings.json.txt"
+  }
+ }
+}

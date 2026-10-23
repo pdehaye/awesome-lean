@@ -1,0 +1,11 @@
+{
+ "repo": "opencompl/lean-mlir",
+ "url": "https://github.com/opencompl/lean-mlir",
+ "branch": "main",
+ "commit": "b8c4a771319a044854a4bbb49b8821381ef86ff8",
+ "commit_date": "2026-07-28T08:16:27+00:00",
+ "files": 12684,
+ "lean_files": 9449,
+ "agent_kinds": [],
+ "agent_files": {}
+}

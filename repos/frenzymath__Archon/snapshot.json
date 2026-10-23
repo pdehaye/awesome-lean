@@ -1,0 +1,44 @@
+{
+ "repo": "frenzymath/Archon",
+ "url": "https://github.com/frenzymath/Archon",
+ "branch": "main",
+ "commit": "3fe2618870808d8c20912ab8b5aff80af275a1de",
+ "commit_date": "2026-08-17T16:15:30+08:00",
+ "files": 516,
+ "lean_files": 0,
+ "agent_kinds": [
+  "agents_md",
+  "plugins",
+  "skills"
+ ],
+ "agent_files": {
+  "src/archon/.archon-src/archon-template/AGENTS.md": {
+   "kinds": [
+    "agents_md"
+   ],
+   "bytes": 17943,
+   "copied_to": "agent_files/src/archon/.archon-src/archon-template/AGENTS.md.txt"
+  },
+  "src/archon/.archon-src/skills/.claude-plugin/marketplace.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 464,
+   "copied_to": "agent_files/src/archon/.archon-src/skills/.claude-plugin/marketplace.json.txt"
+  },
+  "src/archon/.archon-src/skills/lean4/.claude-plugin/plugin.json": {
+   "kinds": [
+    "plugins"
+   ],
+   "bytes": 322,
+   "copied_to": "agent_files/src/archon/.archon-src/skills/lean4/.claude-plugin/plugin.json.txt"
+  },
+  "src/archon/.archon-src/skills/lean4/skills/lean4/SKILL.md": {
+   "kinds": [
+    "skills"
+   ],
+   "bytes": 17136,
+   "copied_to": "agent_files/src/archon/.archon-src/skills/lean4/skills/lean4/SKILL.md.txt"
+  }
+ }
+}
