@@ -29,6 +29,7 @@ GasStationManager/LeanTool,https://github.com/GasStationManager/LeanTool,,LeanTo
 GasStationManager/SafeVerify,https://github.com/GasStationManager/SafeVerify,,SafeVerify,Editors and tooling,primary,Checks submitted Lean code and proofs against a specification while guarding against exploits.,
 Goedel-LM/Goedel-Prover-V2,https://github.com/Goedel-LM/Goedel-Prover-V2,,Goedel-Prover-V2,AI and machine learning > Models and provers,primary,Open-source automated theorem prover for Lean 4.,
 google-deepmind/formal-conjectures,https://github.com/google-deepmind/formal-conjectures,,Formal Conjectures,Mathematics formalization projects,primary,Google DeepMind's collection of formalized open conjectures.,
+gpartin/LeanDiracDerivation,https://github.com/gpartin/LeanDiracDerivation,,LeanDiracDerivation,Mathematics formalization projects,primary,"Staged Lean 4 proofs of a cubical lattice Dirac factorization and its continuum limit, with explicit assumptions and axiom audits.",
 hanwenzhu/LeanArchitect,https://github.com/hanwenzhu/LeanArchitect,,LeanArchitect,Editors and tooling,primary,Generates blueprint data directly from @[blueprint]-tagged Lean declarations.,
 hawkrobe/linglib,https://github.com/hawkrobe/linglib,,linglib,Thematic projects,primary,"Library for formal linguistics across semantics, syntax, pragmatics, morphology and phonology.",
 hrmacbeth/math2001,https://github.com/hrmacbeth/math2001,,The Mechanics of Proof,Learning > Books and tutorials,github,"Heather Macbeth's introduction to proof writing, taught with Lean.",
@@ -52,7 +53,7 @@ lean-ja/lean-by-example,https://github.com/lean-ja/lean-by-example,,Lean by Exam
 lean-machines-central/lean-machines,https://github.com/lean-machines-central/lean-machines,,LeanMachines,Software verification,primary,Event-B inspired framework for modeling and stepwise refinement of stateful systems.,
 Lean-MoDS/StatsMLlib,https://github.com/Lean-MoDS/StatsMLlib,,StatsMLlib,Thematic projects,primary,"Sorry-free library for probability, high-dimensional statistics, empirical processes and learning theory.",
 lean-phys-community/PhysLean,https://github.com/lean-phys-community/PhysLean,,PhysLean,Thematic projects,primary,Lean Community for formalizing physics.,
-LeanPool/lean-pool,https://github.com/LeanPool/lean-pool,,Lean Pool,Mathematics formalization projects,primary,"Curated collection of formalization projects outside Mathlib's scope, checked by linters and LLM review.",
+LeanPool/lean-pool,https://github.com/LeanPool/lean-pool,,Lean Pool,Mathematics formalization projects,primary,"Curated collection of formalization projects outside Mathlib's scope, checked by linters and LLM review.",LeanDiracDerivation
 leanprover-community/aesop,https://github.com/leanprover-community/aesop,,Aesop,Libraries,primary,White-box automation tactic for proof search.,
 leanprover-community/axiom-audit,https://github.com/leanprover-community/axiom-audit,,axiom-audit,Editors and tooling,primary,Fails CI when any declaration depends on an axiom outside an allowlist.,
 leanprover-community/batteries,https://github.com/leanprover-community/batteries,,Batteries,Libraries,primary,Extended standard library of data structures and tactics.,

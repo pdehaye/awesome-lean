@@ -164,6 +164,7 @@ Lean is a functional programming language that makes it easy to write correct an
 - [Tau Ceti](https://github.com/TauCetiProject/TauCeti) - Library of formal mathematics written by AI contributors under human-directed roadmaps, incubated by the Lean FRO and the Mathlib Initiative.
 - [merely-true](https://github.com/merely-true/merely-true) - Permissive, CI-gated repository of AI-generated mathematics with no manual review.
 - [Lean Pool](https://github.com/LeanPool/lean-pool) - Curated collection of formalization projects outside Mathlib's scope, checked by linters and LLM review.
+- [LeanDiracDerivation](https://github.com/gpartin/LeanDiracDerivation) - Staged Lean 4 proofs of a cubical lattice Dirac factorization and its continuum limit, with explicit assumptions and axiom audits ([LeanPool import](https://github.com/LeanPool/lean-pool/pull/889)).
 
 ## Thematic projects
 
